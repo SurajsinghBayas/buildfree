@@ -64,32 +64,33 @@
     @apply border-border;
   }
 
-  /* Smooth theme transitions - Cross-browser compatible */
-  *,
-  *::before,
-  *::after {
-    /* Vendor prefixes for maximum browser support */
-    -webkit-transition-property: background-color, border-color, color, fill, stroke, box-shadow, opacity;
-    -moz-transition-property: background-color, border-color, color, fill, stroke, box-shadow, opacity;
-    -o-transition-property: background-color, border-color, color, fill, stroke, box-shadow, opacity;
-    transition-property: background-color, border-color, color, fill, stroke, box-shadow, opacity;
+  /* 
+   * OPTIMIZED THEME TRANSITIONS
+   * GPU-accelerated, only key elements
+   */
 
-    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    -moz-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    -webkit-transition-duration: 200ms;
-    -moz-transition-duration: 200ms;
-    -o-transition-duration: 200ms;
-    transition-duration: 200ms;
-  }
-
-  /* GPU acceleration for smoother transitions */
-  body {
+  /* Enable hardware acceleration */
+  html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
+  }
+
+  /* Main background transition */
+  body {
+    transition: background-color 150ms ease;
+    will-change: background-color;
+  }
+
+  /* Header and footer transitions */
+  header,
+  footer {
+    transition: background-color 150ms ease, border-color 150ms ease;
+  }
+
+  /* Cards smooth transition */
+  [data-slot="card"],
+  .group {
+    transition: background-color 150ms ease, border-color 150ms ease, box-shadow 150ms ease;
   }
 
   /* Disable transitions on page load to prevent flash */

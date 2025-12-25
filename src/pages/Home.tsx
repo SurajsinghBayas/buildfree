@@ -22,25 +22,31 @@ export function Home() {
 
     // New Features State
     const [bookmarks, setBookmarks] = useState<Set<string>>(new Set());
-    const [darkMode, setDarkMode] = useState(false);
+
+    // Use state for icon only, DOM handles the actual theme
+    const [isDark, setIsDark] = useState(() => {
+        if (typeof window !== 'undefined') {
+            return document.documentElement.classList.contains('dark');
+        }
+        return false;
+    });
 
 
     // Initialize Theme & URL Params
     useEffect(() => {
         // Dark Mode Check
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            setDarkMode(true);
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const shouldBeDark = savedTheme === 'dark' || (!savedTheme && prefersDark);
+
+        if (shouldBeDark) {
             document.documentElement.classList.add('dark');
-        } else {
-            setDarkMode(false);
-            document.documentElement.classList.remove('dark');
+            setIsDark(true);
         }
 
-        // Load Bookmarks
-        const saved = localStorage.getItem("buildfree_bookmarks");
-        if (saved) {
-            setBookmarks(new Set(JSON.parse(saved)));
-        }
+        // Load bookmarks
+        const saved = localStorage.getItem("buildFreeBookmarks");
+        if (saved) setBookmarks(new Set(JSON.parse(saved)));
 
         // Check URL for tool sharing
         const params = new URLSearchParams(window.location.search);
@@ -59,17 +65,20 @@ export function Home() {
             .catch((err) => console.error("Failed to load resources:", err));
     }, []);
 
-    // Toggle Dark Mode
+    // Toggle Dark Mode - No re-render, just DOM update
     const toggleTheme = () => {
-        const newMode = !darkMode;
-        setDarkMode(newMode);
-        if (newMode) {
-            document.documentElement.classList.add('dark');
-            localStorage.theme = 'dark';
+        const html = document.documentElement;
+        const willBeDark = !html.classList.contains('dark');
+
+        if (willBeDark) {
+            html.classList.add('dark');
+            localStorage.setItem('theme', 'dark');
         } else {
-            document.documentElement.classList.remove('dark');
-            localStorage.theme = 'light';
+            html.classList.remove('dark');
+            localStorage.setItem('theme', 'light');
         }
+
+        setIsDark(willBeDark);
     };
 
     // Toggle Bookmark
@@ -163,13 +172,13 @@ export function Home() {
                         <Button variant="ghost" size="icon" onClick={toggleTheme} className="rounded-full w-9 h-9">
                             <AnimatePresence mode="wait" initial={false}>
                                 <motion.div
-                                    key={darkMode ? "dark" : "light"}
+                                    key={isDark ? "dark" : "light"}
                                     initial={{ y: -20, opacity: 0 }}
                                     animate={{ y: 0, opacity: 1 }}
                                     exit={{ y: 20, opacity: 0 }}
                                     transition={{ duration: 0.2 }}
                                 >
-                                    {darkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+                                    {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
                                 </motion.div>
                             </AnimatePresence>
                         </Button>
