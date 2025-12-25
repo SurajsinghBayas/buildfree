@@ -1,0 +1,1291 @@
+[
+    {
+        "toolName": "Google Cloud Platform",
+        "useCase": "Cloud computing with $300 free credits",
+        "category": "Google Resources",
+        "tags": [
+            "cloud",
+            "google",
+            "gcp",
+            "hosting",
+            "compute"
+        ],
+        "freeWhat": "$300 free credits for 90 days, 20+ always-free products",
+        "duration": "90 Days Trial + Always Free Tier",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/free",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "startup",
+            "hackathon",
+            "enterprise"
+        ],
+        "badge": "Top Pick",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 22500
+    },
+    {
+        "toolName": "Firebase",
+        "useCase": "Backend-as-a-Service for web & mobile apps",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "backend",
+            "database",
+            "auth",
+            "hosting",
+            "realtime"
+        ],
+        "freeWhat": "Spark plan: 1GB storage, 10GB/month bandwidth, 50k reads/day, Auth, Hosting",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://firebase.google.com/pricing",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "hackathon",
+            "app",
+            "startup"
+        ],
+        "badge": "Must Have",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/firebase/images/favicon.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Colab",
+        "useCase": "Free Jupyter notebooks with GPU/TPU",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "ai",
+            "ml",
+            "python",
+            "jupyter",
+            "gpu"
+        ],
+        "freeWhat": "Free GPU (T4), 12hrs runtime, Google Drive integration",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://colab.research.google.com/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "ai",
+            "ml",
+            "learning",
+            "hackathon"
+        ],
+        "badge": "Must Have",
+        "logo": "https://colab.research.google.com/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Workspace (Education)",
+        "useCase": "Gmail, Drive, Docs, Meet for students",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "productivity",
+            "email",
+            "storage",
+            "student"
+        ],
+        "freeWhat": "Unlimited Drive storage, Gmail, Docs, Sheets, Meet, Classroom",
+        "duration": "While Student",
+        "eligibility": "Student Email",
+        "requiresCreditCard": "No",
+        "link": "https://edu.google.com/products/workspace-for-education/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "student",
+            "collaboration"
+        ],
+        "badge": "Essential",
+        "logo": "https://www.gstatic.com/images/branding/product/2x/hh_workspace_64dp.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Analytics",
+        "useCase": "Website analytics & insights",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "analytics",
+            "marketing",
+            "seo"
+        ],
+        "freeWhat": "Full analytics suite, 10M hits/month, audience insights, conversions",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://analytics.google.com/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "marketing",
+            "startup",
+            "portfolio"
+        ],
+        "badge": "Essential",
+        "logo": "https://www.gstatic.com/analytics-suite/header/suite/v2/ic_analytics.svg",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Search Console",
+        "useCase": "SEO monitoring & search performance",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "seo",
+            "search",
+            "webmaster"
+        ],
+        "freeWhat": "Full access: indexing, search analytics, sitemap submission",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://search.google.com/search-console/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "seo",
+            "marketing",
+            "portfolio"
+        ],
+        "badge": "Essential",
+        "logo": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Fonts",
+        "useCase": "Free web fonts library",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "fonts",
+            "design",
+            "web"
+        ],
+        "freeWhat": "1500+ free font families, open source, fast CDN",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://fonts.google.com/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "design",
+            "web",
+            "portfolio"
+        ],
+        "badge": "Essential",
+        "logo": "https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/favicon.svg",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Maps Platform",
+        "useCase": "Maps, Places, Routes APIs",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "maps",
+            "api",
+            "location",
+            "geolocation"
+        ],
+        "freeWhat": "$200/month free credit (~28k map loads)",
+        "duration": "Free Forever (with limits)",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://developers.google.com/maps",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "app",
+            "startup",
+            "hackathon"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/images/branding/product/2x/maps_96dp.png",
+        "estimatedValue": 15000
+    },
+    {
+        "toolName": "Google AI Studio (Gemini)",
+        "useCase": "Build with Gemini AI models",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "ai",
+            "gemini",
+            "llm",
+            "ml"
+        ],
+        "freeWhat": "Free tier: 60 queries/min, Gemini Pro, multimodal",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://aistudio.google.com/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "ai",
+            "hackathon",
+            "startup"
+        ],
+        "badge": "Top Pick",
+        "logo": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Vertex AI",
+        "useCase": "Enterprise ML platform",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "ai",
+            "ml",
+            "vertex",
+            "enterprise"
+        ],
+        "freeWhat": "$300 GCP credits, AutoML, custom training, model deployment",
+        "duration": "90 Days Trial",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/vertex-ai",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "ai",
+            "enterprise",
+            "startup"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 22500
+    },
+    {
+        "toolName": "Google Cloud Run",
+        "useCase": "Serverless container deployment",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "serverless",
+            "containers",
+            "docker",
+            "hosting"
+        ],
+        "freeWhat": "2M requests/month, 360k vCPU-seconds, 180k GiB-seconds free",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/run",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "hackathon",
+            "startup",
+            "backend"
+        ],
+        "badge": "Top Pick",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Cloud Functions",
+        "useCase": "Serverless functions (FaaS)",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "serverless",
+            "functions",
+            "faas",
+            "backend"
+        ],
+        "freeWhat": "2M invocations/month, 400k GB-seconds, 200k GHz-seconds",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/functions",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "hackathon",
+            "backend",
+            "automation"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Cloud Storage",
+        "useCase": "Object storage for files",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "storage",
+            "cloud",
+            "files",
+            "backup"
+        ],
+        "freeWhat": "5GB Standard storage, 5k Class A ops, 50k Class B ops/month",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/storage",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "storage",
+            "backup",
+            "app"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google BigQuery",
+        "useCase": "Serverless data warehouse",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "database",
+            "analytics",
+            "sql",
+            "data"
+        ],
+        "freeWhat": "10GB storage, 1TB queries/month, streaming inserts",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/bigquery",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "data",
+            "analytics",
+            "startup"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Sheets API",
+        "useCase": "Use Sheets as a database/backend",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "sheets",
+            "api",
+            "database",
+            "nocode"
+        ],
+        "freeWhat": "Unlimited reads/writes, perfect for MVPs and prototypes",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://developers.google.com/sheets/api",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "hackathon",
+            "mvp",
+            "prototype"
+        ],
+        "badge": "Essential",
+        "logo": "https://www.gstatic.com/images/branding/product/2x/sheets_2020q4_48dp.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Forms",
+        "useCase": "Free form builder & surveys",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "forms",
+            "surveys",
+            "feedback"
+        ],
+        "freeWhat": "Unlimited forms, responses, Google Sheets integration",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://docs.google.com/forms/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "feedback",
+            "surveys",
+            "mvp"
+        ],
+        "badge": "Essential",
+        "logo": "https://www.gstatic.com/images/branding/product/2x/forms_2020q4_48dp.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Drive",
+        "useCase": "Cloud storage & file sync",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "storage",
+            "drive",
+            "backup",
+            "sync"
+        ],
+        "freeWhat": "15GB free storage, file sharing, sync across devices",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://drive.google.com/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "storage",
+            "backup",
+            "collaboration"
+        ],
+        "badge": "Essential",
+        "logo": "https://ssl.gstatic.com/images/branding/product/2x/drive_2020q4_48dp.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Meet",
+        "useCase": "Video conferencing",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "video",
+            "meetings",
+            "conferencing"
+        ],
+        "freeWhat": "100 participants, 60 min meetings, screen sharing, captions",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://meet.google.com/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "meetings",
+            "collaboration",
+            "remote"
+        ],
+        "badge": "Essential",
+        "logo": "https://www.gstatic.com/meet/google_meet_horizontal_wordmark_2020q4_1x_icon_124_40_2373e79660dabbf194273d27aa7ee1f5.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Calendar",
+        "useCase": "Scheduling & calendar management",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "calendar",
+            "scheduling",
+            "productivity"
+        ],
+        "freeWhat": "Full calendar features, integrations, appointment slots",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://calendar.google.com/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "productivity",
+            "scheduling"
+        ],
+        "badge": "Essential",
+        "logo": "https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_31_2x.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Translate API",
+        "useCase": "Machine translation API",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "translate",
+            "api",
+            "language",
+            "localization"
+        ],
+        "freeWhat": "500k characters/month free, 100+ languages",
+        "duration": "Free Forever (with limits)",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/translate",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "localization",
+            "app",
+            "hackathon"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/images/branding/product/2x/translate_48dp.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Vision AI",
+        "useCase": "Image analysis & OCR API",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "ai",
+            "vision",
+            "ocr",
+            "image"
+        ],
+        "freeWhat": "1k units/month free: label detection, OCR, face detection",
+        "duration": "Free Forever (with limits)",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/vision",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "ai",
+            "hackathon",
+            "app"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Speech-to-Text",
+        "useCase": "Convert speech to text API",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "ai",
+            "speech",
+            "transcription",
+            "voice"
+        ],
+        "freeWhat": "60 minutes/month free, 125+ languages",
+        "duration": "Free Forever (with limits)",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/speech-to-text",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "ai",
+            "accessibility",
+            "app"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Text-to-Speech",
+        "useCase": "Convert text to speech API",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "ai",
+            "tts",
+            "voice",
+            "audio"
+        ],
+        "freeWhat": "4M characters/month free, 380+ voices, 50+ languages",
+        "duration": "Free Forever (with limits)",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/text-to-speech",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "ai",
+            "accessibility",
+            "app"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Natural Language API",
+        "useCase": "Text analysis & sentiment API",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "ai",
+            "nlp",
+            "sentiment",
+            "text"
+        ],
+        "freeWhat": "5k units/month free: sentiment, entity, syntax analysis",
+        "duration": "Free Forever (with limits)",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/natural-language",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "ai",
+            "analytics",
+            "hackathon"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google reCAPTCHA",
+        "useCase": "Bot protection for websites",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "security",
+            "captcha",
+            "bot",
+            "protection"
+        ],
+        "freeWhat": "1M assessments/month free, v2 & v3 support",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://www.google.com/recaptcha/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "security",
+            "web",
+            "forms"
+        ],
+        "badge": "Essential",
+        "logo": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google PageSpeed Insights",
+        "useCase": "Website performance testing",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "performance",
+            "seo",
+            "speed",
+            "testing"
+        ],
+        "freeWhat": "Unlimited tests, Core Web Vitals, optimization suggestions",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://pagespeed.web.dev/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "seo",
+            "performance",
+            "web"
+        ],
+        "badge": "Essential",
+        "logo": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Looker Studio",
+        "useCase": "Data visualization & dashboards",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "analytics",
+            "dashboard",
+            "visualization",
+            "reporting"
+        ],
+        "freeWhat": "Full access: unlimited reports, data sources, sharing",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://lookerstudio.google.com/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "analytics",
+            "reporting",
+            "business"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/analytics-lego/svg/ic_looker_studio.svg",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Domains",
+        "useCase": "Domain registration (now Squarespace)",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "domains",
+            "dns",
+            "hosting"
+        ],
+        "freeWhat": "Free privacy protection, email forwarding, DNS management",
+        "duration": "Paid (domains cost money)",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://domains.google/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "domains",
+            "web"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Dialogflow",
+        "useCase": "Conversational AI & chatbots",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "ai",
+            "chatbot",
+            "nlp",
+            "conversational"
+        ],
+        "freeWhat": "Text requests free, 15k audio requests/month, 180+ languages",
+        "duration": "Free Forever (with limits)",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://cloud.google.com/dialogflow",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "ai",
+            "chatbot",
+            "hackathon"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Pub/Sub",
+        "useCase": "Real-time messaging service",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "messaging",
+            "pubsub",
+            "realtime",
+            "events"
+        ],
+        "freeWhat": "10GB/month free, unlimited topics/subscriptions",
+        "duration": "Free Forever (with limits)",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/pubsub",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "backend",
+            "realtime",
+            "events"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Firestore",
+        "useCase": "NoSQL document database",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "database",
+            "nosql",
+            "firestore",
+            "realtime"
+        ],
+        "freeWhat": "1GB storage, 50k reads, 20k writes, 20k deletes/day",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://firebase.google.com/products/firestore",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "hackathon",
+            "app",
+            "backend"
+        ],
+        "badge": "Top Pick",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/firebase/images/favicon.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google App Engine",
+        "useCase": "Managed app hosting platform",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "hosting",
+            "paas",
+            "backend",
+            "serverless"
+        ],
+        "freeWhat": "28 instance hours/day, 1GB storage, 1GB egress/day",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/appengine",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "backend",
+            "app",
+            "startup"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Kubernetes Engine",
+        "useCase": "Managed Kubernetes clusters",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "kubernetes",
+            "containers",
+            "devops",
+            "k8s"
+        ],
+        "freeWhat": "1 zonal cluster free (pay for nodes), Autopilot mode",
+        "duration": "Free Forever (cluster mgmt)",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/kubernetes-engine",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "devops",
+            "enterprise",
+            "containers"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Secret Manager",
+        "useCase": "Secure secrets storage",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "security",
+            "secrets",
+            "env",
+            "config"
+        ],
+        "freeWhat": "6 active secret versions, 10k access requests/month",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/secret-manager",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "security",
+            "devops",
+            "backend"
+        ],
+        "badge": "Essential",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "YouTube Data API",
+        "useCase": "YouTube video & channel data",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "youtube",
+            "api",
+            "video",
+            "content"
+        ],
+        "freeWhat": "10k units/day free, search, videos, channels, playlists",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://developers.google.com/youtube/v3",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "content",
+            "app",
+            "hackathon"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/youtube/img/branding/favicon/favicon_144x144.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Identity Platform",
+        "useCase": "Authentication & identity management",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "auth",
+            "identity",
+            "login",
+            "sso"
+        ],
+        "freeWhat": "50k MAU free, email/password, social logins, MFA",
+        "duration": "Free Forever (with limits)",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/identity-platform",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "auth",
+            "app",
+            "enterprise"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Firebase Authentication",
+        "useCase": "Easy authentication for apps",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "firebase",
+            "auth",
+            "login",
+            "authentication"
+        ],
+        "freeWhat": "Unlimited users, email/password, Google, Facebook, GitHub auth",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://firebase.google.com/products/auth",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "hackathon",
+            "app",
+            "auth"
+        ],
+        "badge": "Must Have",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/firebase/images/favicon.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Firebase Hosting",
+        "useCase": "Fast static web hosting",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "firebase",
+            "hosting",
+            "cdn",
+            "static"
+        ],
+        "freeWhat": "10GB storage, 360MB/day transfer, SSL, custom domains",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://firebase.google.com/products/hosting",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "portfolio",
+            "web",
+            "hackathon"
+        ],
+        "badge": "Top Pick",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/firebase/images/favicon.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Cloud Scheduler",
+        "useCase": "Managed cron job service",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "cron",
+            "scheduler",
+            "automation",
+            "jobs"
+        ],
+        "freeWhat": "3 free jobs, per-minute scheduling, HTTP/Pub/Sub targets",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/scheduler",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "automation",
+            "backend",
+            "cron"
+        ],
+        "badge": "Essential",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Artifact Registry",
+        "useCase": "Container & package registry",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "docker",
+            "registry",
+            "containers",
+            "npm"
+        ],
+        "freeWhat": "500MB storage free, Docker, npm, Maven, Python packages",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/artifact-registry",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "devops",
+            "containers",
+            "ci-cd"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Cloud Build",
+        "useCase": "CI/CD build service",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "ci-cd",
+            "build",
+            "devops",
+            "automation"
+        ],
+        "freeWhat": "120 build-minutes/day free, build containers, deploy anywhere",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "Yes",
+        "link": "https://cloud.google.com/build",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "devops",
+            "ci-cd",
+            "automation"
+        ],
+        "badge": "Popular",
+        "logo": "https://www.gstatic.com/devrel-devsite/prod/v1698ce7a24de5d9f2bbab48a36c1ad7cbc1eb14f10d91c17dbff3e6c6eed8d37/cloud/images/favicons/onecloud/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Gemini API",
+        "useCase": "Gemini AI models API access",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "ai",
+            "gemini",
+            "api",
+            "llm"
+        ],
+        "freeWhat": "Free tier: 15 RPM, 1M TPM, 1.5k RPD for Gemini Pro",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://ai.google.dev/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "ai",
+            "hackathon",
+            "app"
+        ],
+        "badge": "Must Have",
+        "logo": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Teachable Machine",
+        "useCase": "No-code ML model training",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "ai",
+            "ml",
+            "nocode",
+            "learning"
+        ],
+        "freeWhat": "Free browser-based ML training, image/audio/pose models",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://teachablemachine.withgoogle.com/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "learning",
+            "ai",
+            "hackathon"
+        ],
+        "badge": "Essential",
+        "logo": "https://teachablemachine.withgoogle.com/assets/img/favicon.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "TensorFlow",
+        "useCase": "Open-source ML framework",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "ai",
+            "ml",
+            "tensorflow",
+            "deep-learning"
+        ],
+        "freeWhat": "100% free, open-source ML framework, production-ready",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://www.tensorflow.org/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "ai",
+            "ml",
+            "research"
+        ],
+        "badge": "Essential",
+        "logo": "https://www.tensorflow.org/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Flutter",
+        "useCase": "Cross-platform app development",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "mobile",
+            "flutter",
+            "dart",
+            "cross-platform"
+        ],
+        "freeWhat": "100% free SDK, build iOS, Android, Web, Desktop from one codebase",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://flutter.dev/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "mobile",
+            "app",
+            "hackathon"
+        ],
+        "badge": "Must Have",
+        "logo": "https://storage.googleapis.com/cms-storage-bucket/c823e53b3a1a7b0d36a9.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Angular",
+        "useCase": "TypeScript web framework",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "angular",
+            "typescript",
+            "web",
+            "frontend"
+        ],
+        "freeWhat": "100% free framework, enterprise-ready, full-featured",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://angular.dev/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "web",
+            "enterprise",
+            "frontend"
+        ],
+        "badge": "Popular",
+        "logo": "https://angular.dev/assets/icons/favicon.ico",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Material Design",
+        "useCase": "Design system & components",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "design",
+            "ui",
+            "material",
+            "components"
+        ],
+        "freeWhat": "Free design system, icons, guidelines, web components",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://m3.material.io/",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "design",
+            "ui",
+            "mobile"
+        ],
+        "badge": "Essential",
+        "logo": "https://www.gstatic.com/images/icons/material/system_gm/1x/palette_gm_grey_24dp.png",
+        "estimatedValue": 0
+    },
+    {
+        "toolName": "Google Material Icons",
+        "useCase": "Free icon library",
+        "category": "Google Resources",
+        "tags": [
+            "google",
+            "icons",
+            "material",
+            "design",
+            "ui"
+        ],
+        "freeWhat": "2500+ free icons, 5 styles, variable fonts, SVG & PNG",
+        "duration": "Free Forever",
+        "eligibility": "Anyone",
+        "requiresCreditCard": "No",
+        "link": "https://fonts.google.com/icons",
+        "lastVerified": "Dec 2025",
+        "indiaFriendly": true,
+        "recommendedFor": [
+            "design",
+            "ui",
+            "web"
+        ],
+        "badge": "Essential",
+        "logo": "https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/favicon.svg",
+        "estimatedValue": 0
+    }
+]

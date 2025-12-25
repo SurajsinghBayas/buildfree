@@ -50,11 +50,15 @@ export function Home() {
         const saved = localStorage.getItem("buildFreeBookmarks");
         if (saved) setBookmarks(new Set(JSON.parse(saved)));
 
-        // Check URL for tool sharing
+        // Check URL for tool and category sharing
         const params = new URLSearchParams(window.location.search);
         const sharedTool = params.get("tool");
+        const sharedCategory = params.get("category");
         if (sharedTool) {
             setSearchTerm(sharedTool);
+        }
+        if (sharedCategory) {
+            setSelectedCategory(decodeURIComponent(sharedCategory));
         }
 
         fetch("/resources.json")
@@ -125,6 +129,18 @@ export function Home() {
         setFilteredResources(result);
     }, [searchTerm, selectedCategory, sortOption, resources, bookmarks]);
 
+
+    // Update URL when category changes (for sharing)
+    useEffect(() => {
+        const url = new URL(window.location.href);
+        if (selectedCategory && selectedCategory !== "All") {
+            url.searchParams.set("category", selectedCategory);
+        } else {
+            url.searchParams.delete("category");
+        }
+        // Update URL without page reload
+        window.history.replaceState({}, "", url.toString());
+    }, [selectedCategory]);
 
     // Roadmap Presets
     const applyRoadmap = (type: string) => {
@@ -462,6 +478,7 @@ export function Home() {
                     <div className="hidden md:flex flex-wrap items-center gap-2">
                         {categories.map(category => {
                             const isStudentBenefits = category === "Student ID Benefits";
+                            const isGoogleResources = category === "Google Resources";
                             const isSelected = selectedCategory === category;
                             return (
                                 <button
@@ -469,13 +486,20 @@ export function Home() {
                                     onClick={() => setSelectedCategory(category)}
                                     className={cn(
                                         "px-4 py-2 rounded-xl text-xs font-medium transition-all duration-300 border select-none",
-                                        isSelected
-                                            ? "bg-indigo-600 text-white border-transparent shadow-md transform scale-105"
-                                            : "bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-400 border-slate-200 dark:border-slate-800 hover:border-indigo-300 dark:hover:border-indigo-700 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-slate-50 dark:hover:bg-slate-800",
+                                        // Default styles
+                                        !isSelected && !isStudentBenefits && !isGoogleResources && "bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-400 border-slate-200 dark:border-slate-800 hover:border-indigo-300 dark:hover:border-indigo-700 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-slate-50 dark:hover:bg-slate-800",
+                                        // Selected default
+                                        isSelected && !isStudentBenefits && !isGoogleResources && "bg-indigo-600 text-white border-transparent shadow-md transform scale-105",
+                                        // Student Benefits styles
                                         isStudentBenefits && !isSelected && "border-indigo-200 bg-indigo-50 dark:bg-indigo-950/30 dark:border-indigo-900 text-indigo-700 dark:text-indigo-400",
-                                        isStudentBenefits && isSelected && "bg-indigo-600 text-white ring-2 ring-indigo-200 dark:ring-indigo-900"
-                                    )
-                                    }
+                                        isStudentBenefits && isSelected && "bg-indigo-600 text-white ring-2 ring-indigo-200 dark:ring-indigo-900 border-transparent shadow-md transform scale-105",
+                                        // Google Resources styles - GDG colors
+                                        isGoogleResources && !isSelected && "border-[#4285F4] bg-gradient-to-r from-blue-50 via-red-50 via-yellow-50 to-green-50 dark:from-blue-950/30 dark:via-red-950/30 dark:via-yellow-950/30 dark:to-green-950/30 text-[#4285F4] dark:text-[#8AB4F8]",
+                                        isGoogleResources && isSelected && "text-white border-transparent shadow-md transform scale-105"
+                                    )}
+                                    style={isGoogleResources && isSelected ? {
+                                        background: "linear-gradient(90deg, #4285F4 0%, #EA4335 33%, #FBBC04 66%, #34A853 100%)"
+                                    } : undefined}
                                 >
                                     {isStudentBenefits && <span className="mr-1.5">🎓</span>}
                                     {category}

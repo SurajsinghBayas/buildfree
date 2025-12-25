@@ -67,11 +67,24 @@ export function ResourceCard({ resource, isBookmarked, onToggleBookmark, onTagCl
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
             className="h-full"
         >
-            <Card className="h-full flex flex-col group relative overflow-visible border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950/50 hover:border-indigo-500 dark:hover:border-indigo-400 transition-colors duration-300 shadow-sm hover:shadow-md">
+            <Card className={`h-full flex flex-col group relative overflow-visible border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950/50 transition-colors duration-300 shadow-sm hover:shadow-md ${resource.category === "Google Resources"
+                    ? "hover:border-[#4285F4] dark:hover:border-[#4285F4]"
+                    : "hover:border-indigo-500 dark:hover:border-indigo-400"
+                }`}>
 
                 {/* Top Highlight strip for Featured/Student Items - SOLID COLOR */}
                 {resource.category === "Student ID Benefits" && (
                     <div className="absolute top-0 left-0 right-0 h-1 bg-indigo-500" />
+                )}
+
+                {/* Google Resources - GDG Theme Gradient (Blue, Red, Yellow, Green) */}
+                {resource.category === "Google Resources" && (
+                    <div
+                        className="absolute top-0 left-0 right-0 h-1.5"
+                        style={{
+                            background: "linear-gradient(90deg, #4285F4 0%, #EA4335 33%, #FBBC04 66%, #34A853 100%)"
+                        }}
+                    />
                 )}
 
                 <CardHeader className="p-5 pb-3">
