@@ -67,20 +67,20 @@ export function ResourceCard({ resource, isBookmarked, onToggleBookmark, onTagCl
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
             className="h-full"
         >
-            <Card className={`h-full flex flex-col group relative overflow-visible border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950/50 transition-colors duration-300 shadow-sm hover:shadow-md ${resource.category === "Google Resources"
-                    ? "hover:border-[#4285F4] dark:hover:border-[#4285F4]"
-                    : "hover:border-indigo-500 dark:hover:border-indigo-400"
+            <Card className={`h-full flex flex-col group relative overflow-hidden border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950/50 transition-colors duration-300 shadow-sm hover:shadow-md ${resource.category === "Google Resources"
+                ? "hover:border-[#4285F4] dark:hover:border-[#4285F4]"
+                : "hover:border-indigo-500 dark:hover:border-indigo-400"
                 }`}>
 
                 {/* Top Highlight strip for Featured/Student Items - SOLID COLOR */}
                 {resource.category === "Student ID Benefits" && (
-                    <div className="absolute top-0 left-0 right-0 h-1 bg-indigo-500" />
+                    <div className="absolute top-0 left-0 right-0 h-1 bg-indigo-500 rounded-t-lg" />
                 )}
 
                 {/* Google Resources - GDG Theme Gradient (Blue, Red, Yellow, Green) */}
                 {resource.category === "Google Resources" && (
                     <div
-                        className="absolute top-0 left-0 right-0 h-1.5"
+                        className="absolute top-0 left-0 right-0 h-1.5 rounded-t-lg overflow-hidden"
                         style={{
                             background: "linear-gradient(90deg, #4285F4 0%, #EA4335 33%, #FBBC04 66%, #34A853 100%)"
                         }}
@@ -168,36 +168,36 @@ export function ResourceCard({ resource, isBookmarked, onToggleBookmark, onTagCl
                 </CardHeader>
 
                 <CardContent className="px-5 py-2 flex-grow flex flex-col gap-4">
-                    <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed line-clamp-2 min-h-[2.5rem]">
+                    <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed line-clamp-2 h-10">
                         {resource.useCase}
                     </p>
 
                     <div className="space-y-3 mt-auto">
-                        <div className="bg-slate-50 dark:bg-slate-900/50 p-3 rounded-lg border border-slate-100 dark:border-slate-800">
+                        <div className="bg-slate-50 dark:bg-slate-900/50 p-3 rounded-lg border border-slate-100 dark:border-slate-800 min-h-[52px]">
                             <div className="flex items-start gap-2">
                                 <CheckCircle2 className="w-4 h-4 text-emerald-600 dark:text-emerald-500 shrink-0 mt-0.5" />
-                                <span className="text-xs font-medium text-slate-700 dark:text-slate-300 leading-snug">
+                                <span className="text-xs font-medium text-slate-700 dark:text-slate-300 leading-snug line-clamp-2">
                                     {resource.freeWhat}
                                 </span>
                             </div>
                         </div>
 
-                        <div className="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400 px-1">
-                            <div className="flex items-center gap-1.5 shrink-0" title="Duration">
-                                <Clock className="w-3.5 h-3.5" />
-                                <span className="font-medium whitespace-nowrap">{resource.duration}</span>
+                        <div className="flex items-center justify-between flex-wrap gap-2 text-xs text-slate-500 dark:text-slate-400 px-1">
+                            <div className="flex items-center gap-1.5 min-w-0" title="Duration">
+                                <Clock className="w-3.5 h-3.5 shrink-0" />
+                                <span className="font-medium truncate">{resource.duration}</span>
                             </div>
                             <div className="flex items-center gap-1.5 shrink-0" title="Credit Card Requirement">
-                                <CreditCard className="w-3.5 h-3.5" />
+                                <CreditCard className="w-3.5 h-3.5 shrink-0" />
                                 <span className={cn("font-medium whitespace-nowrap", resource.requiresCreditCard === "No" ? "text-emerald-600 dark:text-emerald-400" : "text-amber-600 dark:text-amber-400")}>
-                                    {resource.requiresCreditCard === "No" ? "No Card Req." : "Card Required"}
+                                    {resource.requiresCreditCard === "No" ? "No Card" : "Card Req."}
                                 </span>
                             </div>
                         </div>
                     </div>
 
                     {/* Tags */}
-                    <div className="flex flex-wrap gap-1.5 pt-2">
+                    <div className="flex flex-wrap gap-1.5 pt-2 h-[60px] overflow-hidden">
                         {resource.tags.slice(0, 4).map(tag => (
                             <button
                                 key={tag}
@@ -205,7 +205,7 @@ export function ResourceCard({ resource, isBookmarked, onToggleBookmark, onTagCl
                                     e.preventDefault();
                                     onTagClick?.(tag);
                                 }}
-                                className="text-[10px] font-medium px-2.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors cursor-pointer border border-transparent"
+                                className="text-[10px] font-medium px-2.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors cursor-pointer border border-transparent h-fit"
                             >
                                 #{tag}
                             </button>
