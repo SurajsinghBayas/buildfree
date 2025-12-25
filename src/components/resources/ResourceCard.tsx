@@ -45,7 +45,9 @@ export function ResourceCard({ resource, isBookmarked, onToggleBookmark, onTagCl
     const handleShare = (e: React.MouseEvent) => {
         e.preventDefault();
         e.stopPropagation();
-        const url = `${window.location.origin}?tool=${encodeURIComponent(resource.toolName)}`;
+        // Use production URL for sharing
+        const baseUrl = 'https://build-free.vercel.app';
+        const url = `${baseUrl}?tool=${encodeURIComponent(resource.toolName)}`;
         navigator.clipboard.writeText(url);
         setCopied(true);
         setTimeout(() => setCopied(false), 2000);

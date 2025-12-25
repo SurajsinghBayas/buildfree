@@ -22,6 +22,8 @@ export function Home() {
 
     // New Features State
     const [bookmarks, setBookmarks] = useState<Set<string>>(new Set());
+    const [hackathonsOpen, setHackathonsOpen] = useState(false);
+    const [submitOpen, setSubmitOpen] = useState(false);
 
     // Use state for icon only, DOM handles the actual theme
     const [isDark, setIsDark] = useState(() => {
@@ -184,9 +186,18 @@ export function Home() {
                         </Button>
 
                         {/* Hackathons Dialog */}
-                        <Dialog>
+                        <Dialog open={hackathonsOpen} onOpenChange={setHackathonsOpen}>
                             <DialogTrigger asChild>
-                                <Button variant="outline" size="sm" className="border-orange-200 dark:border-orange-900 text-orange-600 dark:text-orange-400 hover:bg-orange-50 dark:hover:bg-orange-950/30 active:scale-95 transition-all">
+                                <Button
+                                    variant="outline"
+                                    size="sm"
+                                    className="border-orange-200 dark:border-orange-900 text-orange-600 dark:text-orange-400 hover:bg-orange-50 dark:hover:bg-orange-950/30 active:scale-95 transition-all"
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        window.scrollTo({ top: 0, behavior: 'instant' });
+                                        setTimeout(() => setHackathonsOpen(true), 50);
+                                    }}
+                                >
                                     <Trophy className="w-4 h-4 sm:mr-1" />
                                     <span className="hidden sm:inline">Hackathons</span>
                                 </Button>
@@ -277,10 +288,19 @@ export function Home() {
                             </DialogContent>
                         </Dialog>
 
+
                         {/* Submit Resource Dialog */}
-                        <Dialog>
+                        <Dialog open={submitOpen} onOpenChange={setSubmitOpen}>
                             <DialogTrigger asChild>
-                                <Button size="sm" className="bg-indigo-600 hover:bg-indigo-700 text-white border-0 shadow-sm active:scale-95 transition-all">
+                                <Button
+                                    size="sm"
+                                    className="bg-indigo-600 hover:bg-indigo-700 text-white border-0 shadow-sm active:scale-95 transition-all"
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        window.scrollTo({ top: 0, behavior: 'instant' });
+                                        setTimeout(() => setSubmitOpen(true), 50);
+                                    }}
+                                >
                                     <Plus className="w-4 h-4 sm:mr-1" />
                                     <span className="hidden sm:inline">Submit</span>
                                 </Button>
@@ -546,10 +566,28 @@ export function Home() {
                             </a>
                         </div>
 
-                        {/* Copyright */}
-                        <p className="text-slate-400 text-xs">
-                            © {new Date().getFullYear()} BuildFree. Made with ❤️ in India
-                        </p>
+                        {/* Copyright & Stats */}
+                        <div className="flex flex-col items-center sm:items-end gap-2">
+                            <div className="flex items-center gap-3">
+                                {/* Visitor Counter Badge */}
+                                <a href="https://build-free.vercel.app" className="flex items-center gap-1.5 px-2.5 py-1 bg-slate-100 dark:bg-slate-800 rounded-full hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors">
+                                    <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                                    <span className="text-xs font-medium text-slate-600 dark:text-slate-300">
+                                        Live
+                                    </span>
+                                </a>
+                                {/* Free Tools Badge */}
+                                <div className="flex items-center gap-1.5 px-2.5 py-1 bg-indigo-100 dark:bg-indigo-900/30 rounded-full">
+                                    <span className="text-xs">🔥</span>
+                                    <span className="text-xs font-medium text-indigo-600 dark:text-indigo-400">
+                                        {resources.length}+ Tools
+                                    </span>
+                                </div>
+                            </div>
+                            <p className="text-slate-400 text-xs">
+                                © {new Date().getFullYear()} BuildFree. Made with ❤️ in India
+                            </p>
+                        </div>
                     </div>
                 </div>
             </footer>
