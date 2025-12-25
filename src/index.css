@@ -64,19 +64,41 @@
     @apply border-border;
   }
 
-  /* Smooth theme transitions */
+  /* Smooth theme transitions - Cross-browser compatible */
   *,
   *::before,
   *::after {
-    transition-property: background-color, border-color, color, fill, stroke, box-shadow;
+    /* Vendor prefixes for maximum browser support */
+    -webkit-transition-property: background-color, border-color, color, fill, stroke, box-shadow, opacity;
+    -moz-transition-property: background-color, border-color, color, fill, stroke, box-shadow, opacity;
+    -o-transition-property: background-color, border-color, color, fill, stroke, box-shadow, opacity;
+    transition-property: background-color, border-color, color, fill, stroke, box-shadow, opacity;
+
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    -webkit-transition-duration: 200ms;
+    -moz-transition-duration: 200ms;
+    -o-transition-duration: 200ms;
     transition-duration: 200ms;
+  }
+
+  /* GPU acceleration for smoother transitions */
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
   }
 
   /* Disable transitions on page load to prevent flash */
   .no-transitions *,
   .no-transitions *::before,
   .no-transitions *::after {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
     transition: none !important;
   }
 
@@ -84,8 +106,103 @@
     @apply bg-background text-foreground;
   }
 
-  /* Smooth scrolling */
+  /* Smooth scrolling - Cross-browser */
   html {
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    /* iOS smooth scroll */
+  }
+
+  /* Reduce motion for users who prefer it */
+  @media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+      -webkit-transition-duration: 0.01ms !important;
+      -moz-transition-duration: 0.01ms !important;
+      -o-transition-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+      -webkit-animation-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* Modern AI Browser Optimizations (Arc, Brave, Edge, Opera GX, Vivaldi) */
+  :root {
+    /* Color scheme support for browser UI theming */
+    color-scheme: light dark;
+
+    /* Enable View Transitions API for smooth theme switching */
+    view-transition-name: root;
+
+    /* Performance hints */
+    contain: layout style;
+  }
+
+  /* Arc Browser & modern Chromium - smooth View Transitions */
+  @supports (view-transition-name: none) {
+
+    ::view-transition-old(root),
+    ::view-transition-new(root) {
+      animation-duration: 200ms;
+      animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    ::view-transition-old(root) {
+      animation-name: fade-out;
+    }
+
+    ::view-transition-new(root) {
+      animation-name: fade-in;
+    }
+
+    @keyframes fade-out {
+      from {
+        opacity: 1;
+      }
+
+      to {
+        opacity: 0;
+      }
+    }
+
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+  }
+
+  /* Dark mode preference detection for browser theming */
+  @media (prefers-color-scheme: dark) {
+    :root:not(.light) {
+      color-scheme: dark;
+    }
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root:not(.dark) {
+      color-scheme: light;
+    }
+  }
+
+  /* High contrast mode support */
+  @media (prefers-contrast: high) {
+    * {
+      border-width: 2px !important;
+    }
+  }
+
+  /* Forced colors mode (Windows High Contrast) */
+  @media (forced-colors: active) {
+    * {
+      forced-color-adjust: auto;
+    }
   }
 }
