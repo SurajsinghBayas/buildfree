@@ -87,12 +87,12 @@ export function ResourceCard({ resource, isBookmarked, onToggleBookmark, onTagCl
                     />
                 )}
 
-                <CardHeader className="p-5 pb-3">
-                    <div className="flex justify-between items-start gap-3">
+                <CardHeader className="p-4 sm:p-5 pb-2 sm:pb-3">
+                    <div className="flex justify-between items-start gap-2 sm:gap-3">
                         {/* Logo & Title */}
-                        <div className="flex gap-4 items-start w-full">
+                        <div className="flex gap-3 sm:gap-4 items-start w-full">
                             <div className="shrink-0 relative">
-                                <div className="w-14 h-14 rounded-xl bg-white border border-slate-200 dark:border-slate-700 p-2.5 shadow-sm flex items-center justify-center shrink-0 overflow-hidden">
+                                <div className="w-11 h-11 sm:w-14 sm:h-14 rounded-lg sm:rounded-xl bg-white border border-slate-200 dark:border-slate-700 p-1.5 sm:p-2.5 shadow-sm flex items-center justify-center shrink-0 overflow-hidden">
                                     {/* Primary Logo */}
                                     {primaryLogoSrc && !imgError && (
                                         <img
@@ -121,74 +121,74 @@ export function ResourceCard({ resource, isBookmarked, onToggleBookmark, onTagCl
                                     )}
                                 </div>
                                 {resource.indiaFriendly && (
-                                    <span className="absolute -bottom-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-white dark:bg-slate-900 shadow-sm border border-slate-200 dark:border-slate-700 text-[12px] z-10" title="India Friendly">
+                                    <span className="absolute -bottom-1 -right-1 flex h-4 w-4 sm:h-5 sm:w-5 items-center justify-center rounded-full bg-white dark:bg-slate-900 shadow-sm border border-slate-200 dark:border-slate-700 text-[10px] sm:text-[12px] z-10" title="India Friendly">
                                         🇮🇳
                                     </span>
                                 )}
                             </div>
 
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-center gap-2 mb-1.5 flex-wrap">
-                                    <Badge variant="secondary" className="px-2 py-0.5 text-[10px] uppercase tracking-wider font-semibold text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-slate-800 border-slate-200 dark:border-slate-700">
+                                <div className="flex items-center gap-1.5 sm:gap-2 mb-1 sm:mb-1.5 flex-wrap">
+                                    <Badge variant="secondary" className="px-1.5 sm:px-2 py-0.5 text-[9px] sm:text-[10px] uppercase tracking-wider font-semibold text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-slate-800 border-slate-200 dark:border-slate-700">
                                         {resource.category}
                                     </Badge>
                                     {resource.badge && (
-                                        <Badge variant="default" className="px-2 py-0.5 text-[10px] font-bold bg-indigo-100 text-indigo-700 dark:bg-indigo-500/20 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-500/30 flex items-center gap-1">
-                                            <Sparkles className="w-2.5 h-2.5" />
+                                        <Badge variant="default" className="px-1.5 sm:px-2 py-0.5 text-[9px] sm:text-[10px] font-bold bg-indigo-100 text-indigo-700 dark:bg-indigo-500/20 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-500/30 flex items-center gap-0.5 sm:gap-1">
+                                            <Sparkles className="w-2 h-2 sm:w-2.5 sm:h-2.5" />
                                             {resource.badge}
                                         </Badge>
                                     )}
                                 </div>
-                                <h3 className="font-bold text-lg leading-snug text-slate-900 dark:text-slate-50 pr-8">
+                                <h3 className="font-bold text-base sm:text-lg leading-snug text-slate-900 dark:text-slate-50 pr-6 sm:pr-8">
                                     {resource.toolName}
                                 </h3>
                             </div>
                         </div>
 
                         {/* Action Buttons - Repositioned to prevent hiding */}
-                        <div className="absolute top-4 right-4 flex flex-col gap-1">
+                        <div className="absolute top-3 sm:top-4 right-3 sm:right-4 flex flex-col gap-0.5 sm:gap-1">
                             <Button
                                 variant="ghost"
                                 size="icon"
-                                className="h-8 w-8 text-slate-400 hover:text-rose-500 hover:bg-rose-50 dark:hover:bg-rose-950/30 transition-colors rounded-full"
+                                className="h-7 w-7 sm:h-8 sm:w-8 text-slate-400 hover:text-rose-500 hover:bg-rose-50 dark:hover:bg-rose-950/30 transition-colors rounded-full"
                                 onClick={handleBookmark}
                             >
-                                <Heart className={cn("w-4 h-4 transition-all duration-300", isBookmarked && "fill-rose-500 text-rose-500 scale-110")} />
+                                <Heart className={cn("w-3.5 h-3.5 sm:w-4 sm:h-4 transition-all duration-300", isBookmarked && "fill-rose-500 text-rose-500 scale-110")} />
                             </Button>
                             <Button
                                 variant="ghost"
                                 size="icon"
-                                className="h-8 w-8 text-slate-400 hover:text-indigo-500 hover:bg-indigo-50 dark:hover:bg-indigo-950/30 transition-colors rounded-full"
+                                className="h-7 w-7 sm:h-8 sm:w-8 text-slate-400 hover:text-indigo-500 hover:bg-indigo-50 dark:hover:bg-indigo-950/30 transition-colors rounded-full"
                                 onClick={handleShare}
                             >
-                                {copied ? <CheckCircle2 className="w-4 h-4 text-green-500" /> : <Share2 className="w-4 h-4" />}
+                                {copied ? <CheckCircle2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-green-500" /> : <Share2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />}
                             </Button>
                         </div>
                     </div>
                 </CardHeader>
 
-                <CardContent className="px-5 py-2 flex-grow flex flex-col gap-4">
-                    <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed line-clamp-2 h-10">
+                <CardContent className="px-4 sm:px-5 py-2 flex-grow flex flex-col gap-3 sm:gap-4">
+                    <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed line-clamp-2 h-8 sm:h-10">
                         {resource.useCase}
                     </p>
 
-                    <div className="space-y-3 mt-auto">
-                        <div className="bg-slate-50 dark:bg-slate-900/50 p-3 rounded-lg border border-slate-100 dark:border-slate-800 min-h-[52px]">
+                    <div className="space-y-2 sm:space-y-3 mt-auto">
+                        <div className="bg-slate-50 dark:bg-slate-900/50 p-2.5 sm:p-3 rounded-lg border border-slate-100 dark:border-slate-800 min-h-[44px] sm:min-h-[52px]">
                             <div className="flex items-start gap-2">
-                                <CheckCircle2 className="w-4 h-4 text-emerald-600 dark:text-emerald-500 shrink-0 mt-0.5" />
-                                <span className="text-xs font-medium text-slate-700 dark:text-slate-300 leading-snug line-clamp-2">
+                                <CheckCircle2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-600 dark:text-emerald-500 shrink-0 mt-0.5" />
+                                <span className="text-[11px] sm:text-xs font-medium text-slate-700 dark:text-slate-300 leading-snug line-clamp-2">
                                     {resource.freeWhat}
                                 </span>
                             </div>
                         </div>
 
-                        <div className="flex items-center justify-between flex-wrap gap-2 text-xs text-slate-500 dark:text-slate-400 px-1">
-                            <div className="flex items-center gap-1.5 min-w-0" title="Duration">
-                                <Clock className="w-3.5 h-3.5 shrink-0" />
+                        <div className="flex items-center justify-between flex-wrap gap-1.5 sm:gap-2 text-[10px] sm:text-xs text-slate-500 dark:text-slate-400 px-0.5 sm:px-1">
+                            <div className="flex items-center gap-1 sm:gap-1.5 min-w-0" title="Duration">
+                                <Clock className="w-3 h-3 sm:w-3.5 sm:h-3.5 shrink-0" />
                                 <span className="font-medium truncate">{resource.duration}</span>
                             </div>
-                            <div className="flex items-center gap-1.5 shrink-0" title="Credit Card Requirement">
-                                <CreditCard className="w-3.5 h-3.5 shrink-0" />
+                            <div className="flex items-center gap-1 sm:gap-1.5 shrink-0" title="Credit Card Requirement">
+                                <CreditCard className="w-3 h-3 sm:w-3.5 sm:h-3.5 shrink-0" />
                                 <span className={cn("font-medium whitespace-nowrap", resource.requiresCreditCard === "No" ? "text-emerald-600 dark:text-emerald-400" : "text-amber-600 dark:text-amber-400")}>
                                     {resource.requiresCreditCard === "No" ? "No Card" : "Card Req."}
                                 </span>
@@ -197,7 +197,7 @@ export function ResourceCard({ resource, isBookmarked, onToggleBookmark, onTagCl
                     </div>
 
                     {/* Tags */}
-                    <div className="flex flex-wrap gap-1.5 pt-2 h-[60px] overflow-hidden">
+                    <div className="flex flex-wrap gap-1 sm:gap-1.5 pt-1 sm:pt-2 h-[50px] sm:h-[60px] overflow-hidden">
                         {resource.tags.slice(0, 4).map(tag => (
                             <button
                                 key={tag}
@@ -205,7 +205,7 @@ export function ResourceCard({ resource, isBookmarked, onToggleBookmark, onTagCl
                                     e.preventDefault();
                                     onTagClick?.(tag);
                                 }}
-                                className="text-[10px] font-medium px-2.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors cursor-pointer border border-transparent h-fit"
+                                className="text-[9px] sm:text-[10px] font-medium px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors cursor-pointer border border-transparent h-fit"
                             >
                                 #{tag}
                             </button>
@@ -213,18 +213,18 @@ export function ResourceCard({ resource, isBookmarked, onToggleBookmark, onTagCl
                     </div>
                 </CardContent>
 
-                <CardFooter className="p-5 pt-3 mt-auto">
+                <CardFooter className="p-4 sm:p-5 pt-2 sm:pt-3 mt-auto">
                     <Button
                         asChild
                         className={cn(
-                            "w-full shadow-none transition-all duration-300 border font-medium",
+                            "w-full shadow-none transition-all duration-300 border font-medium h-9 sm:h-10 text-sm",
                             resource.category === "Student ID Benefits"
                                 ? "bg-indigo-600 hover:bg-indigo-700 text-white border-transparent"
                                 : "bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 border-slate-200 dark:border-slate-700"
                         )}
                     >
                         <a href={resource.link} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
-                            Get Resource <ExternalLink className="w-4 h-4 opacity-50" />
+                            Get Resource <ExternalLink className="w-3.5 h-3.5 sm:w-4 sm:h-4 opacity-50" />
                         </a>
                     </Button>
                 </CardFooter>
