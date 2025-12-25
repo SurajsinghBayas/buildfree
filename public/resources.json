@@ -1,0 +1,2939 @@
+[
+  {
+    "toolName": "GitHub Student Developer Pack",
+    "useCase": "The ultimate bundle of dev tools & credits",
+    "category": "Student ID Benefits",
+    "tags": [
+      "git",
+      "cloud",
+      "domains",
+      "student"
+    ],
+    "freeWhat": "$200k+ value: GitHub Pro, DigitalOcean $200, Namecheap domains, JetBrains, etc.",
+    "duration": "While student",
+    "eligibility": "Student ID / Email",
+    "requiresCreditCard": "No",
+    "link": "https://education.github.com/pack",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "starter",
+      "hackathon"
+    ],
+    "badge": "Must Have",
+    "logo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+    "estimatedValue": 150000
+  },
+  {
+    "toolName": "Vercel",
+    "useCase": "Frontend hosting & deployment (Next.js)",
+    "category": "Hosting",
+    "tags": [
+      "web",
+      "react",
+      "nextjs",
+      "deployment"
+    ],
+    "freeWhat": "Hobby plan: unltd deployments, 100GB bandwidth, serverless functions",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://vercel.com/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "portfolio",
+      "app",
+      "react"
+    ],
+    "badge": "Top Pick",
+    "logo": "https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png",
+    "estimatedValue": 6000
+  },
+  {
+    "toolName": "Figma Education",
+    "useCase": "Collaborative UI/UX design tool",
+    "category": "Student ID Benefits",
+    "tags": [
+      "ui",
+      "design",
+      "prototyping",
+      "collaboration"
+    ],
+    "freeWhat": "Figma Professional Plan (unlimited files, teams, version history)",
+    "duration": "2 years (renewable)",
+    "eligibility": "Student Email / Doc",
+    "requiresCreditCard": "No",
+    "link": "https://www.figma.com/education/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "design",
+      "collab",
+      "hackathon"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+    "estimatedValue": 12000
+  },
+  {
+    "toolName": "JetBrains All Products Pack",
+    "useCase": "Professional IDEs (IntelliJ, PyCharm, WebStorm)",
+    "category": "Student ID Benefits",
+    "tags": [
+      "ide",
+      "java",
+      "python",
+      "web"
+    ],
+    "freeWhat": "Free access to all JetBrains IDEs",
+    "duration": "1 year (renewable)",
+    "eligibility": "Student Email / ISIC",
+    "requiresCreditCard": "No",
+    "link": "https://www.jetbrains.com/community/education/#students",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "coding",
+      "java",
+      "python"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/JetBrains_Logo_2016.svg",
+    "estimatedValue": 24000
+  },
+  {
+    "toolName": "Notion for Education",
+    "useCase": "All-in-one workspace for notes & docs",
+    "category": "Student ID Benefits",
+    "tags": [
+      "notes",
+      "wiki",
+      "kanban",
+      "planning"
+    ],
+    "freeWhat": "Personal Pro Plan (unlimited uploads, guests, version history)",
+    "duration": "While student",
+    "eligibility": "School Email",
+    "requiresCreditCard": "No",
+    "link": "https://www.notion.so/product/notion-for-education",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "planning",
+      "docs",
+      "student life"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+    "estimatedValue": 4000
+  },
+  {
+    "toolName": "AWS Educate",
+    "useCase": "Learn cloud computing with free credits",
+    "category": "Student ID Benefits",
+    "tags": [
+      "cloud",
+      "serverless",
+      "aws",
+      "learning"
+    ],
+    "freeWhat": "$30-$100 Cloud credits & training labs",
+    "duration": "Annual renewable",
+    "eligibility": "Student Email",
+    "requiresCreditCard": "No",
+    "link": "https://aws.amazon.com/education/awseducate/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "learning",
+      "hosting"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+    "estimatedValue": 8300
+  },
+  {
+    "toolName": "Supabase",
+    "useCase": "Open-source Firebase alternative (Postgres)",
+    "category": "Database",
+    "tags": [
+      "sql",
+      "auth",
+      "realtime",
+      "backend"
+    ],
+    "freeWhat": "500MB DB, 5GB bandwidth, Auth, Edge Functions",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://supabase.com/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "backend",
+      "app",
+      "hackathon"
+    ],
+    "badge": "Generous",
+    "logo": "https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png",
+    "estimatedValue": 5000
+  },
+  {
+    "toolName": "Netlify",
+    "useCase": "Static site hosting & serverless functions",
+    "category": "Hosting",
+    "tags": [
+      "jamstack",
+      "hosting",
+      "static"
+    ],
+    "freeWhat": "100GB bandwidth, 300 build minutes/mo, Forms, Identity",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.netlify.com/pricing/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "websites",
+      "react"
+    ],
+    "logo": "https://www.netlify.com/v3/img/components/logomark.png"
+  },
+  {
+    "toolName": "Azure for Students",
+    "useCase": "Microsoft Cloud Services & Credits",
+    "category": "Student ID Benefits",
+    "tags": [
+      "cloud",
+      "azure",
+      "vm",
+      "ai"
+    ],
+    "freeWhat": "$100 credits + 25+ free services (SQL, App Service, AI)",
+    "duration": "1 year renewable",
+    "eligibility": "Student Email",
+    "requiresCreditCard": "No",
+    "link": "https://azure.microsoft.com/en-in/free/students/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hosting",
+      "projects",
+      "windows"
+    ],
+    "badge": "$100 Credits",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg",
+    "estimatedValue": 8300
+  },
+  {
+    "toolName": "MongoDB Atlas",
+    "useCase": "NoSQL Database as a Service",
+    "category": "Database",
+    "tags": [
+      "nosql",
+      "db",
+      "json"
+    ],
+    "freeWhat": "M0 Sandbox (512MB storage, shared RAM)",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.mongodb.com/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "mern",
+      "backend"
+    ],
+    "logo": "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
+  },
+  {
+    "toolName": "Render",
+    "useCase": "Unified cloud to run apps and websites",
+    "category": "Hosting",
+    "tags": [
+      "hosting",
+      "node",
+      "docker",
+      "postgres"
+    ],
+    "freeWhat": "Free Web Services (spin down), Static Sites, Redis, Postgres (trial)",
+    "duration": "Free Forever (limits)",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No (mostly)",
+    "link": "https://render.com/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "fullstack",
+      "backend"
+    ],
+    "logo": "https://intellyx.com/wp-content/uploads/2019/08/Render-cloud-logo-300x300.png"
+  },
+  {
+    "toolName": "Neon",
+    "useCase": "Serverless Postgres built for the cloud",
+    "category": "Database",
+    "tags": [
+      "postgres",
+      "sql",
+      "serverless"
+    ],
+    "freeWhat": "0.5GB storage, branch databases, compute autoscaling",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://neon.tech/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "modern stack",
+      "postgres"
+    ],
+    "logo": "https://neon.tech/brand/neon-logo-dark.svg"
+  },
+  {
+    "toolName": "PlanetScale",
+    "useCase": "MySQL compatible serverless database platform",
+    "category": "Database",
+    "tags": [
+      "mysql",
+      "database",
+      "serverless"
+    ],
+    "freeWhat": "Hobby plan: 5GB storage, 1 billion reads/mo",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://planetscale.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "mysql users",
+      "scale"
+    ],
+    "logo": "https://seeklogo.com/images/P/planetscale-logo-058D46D510-seeklogo.com.png"
+  },
+  {
+    "toolName": "Railway",
+    "useCase": "Infrastructure made simple",
+    "category": "Hosting",
+    "tags": [
+      "hosting",
+      "deployment",
+      "infrastructure"
+    ],
+    "freeWhat": "$5 credit trial (need card usually now, but worth sticking for low cost)",
+    "duration": "Trial / Usage based",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "Yes",
+    "link": "https://railway.app/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "deployment",
+      "easy setup"
+    ],
+    "badge": "Developer Favorite",
+    "logo": "https://railway.app/brand/logo-dark.svg"
+  },
+  {
+    "toolName": "Fly.io",
+    "useCase": "Run full stack apps close to users",
+    "category": "Hosting",
+    "tags": [
+      "hosting",
+      "docker",
+      "global"
+    ],
+    "freeWhat": "Free allowances for small VMs and storage (credit card required)",
+    "duration": "Free Forever (limit)",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "Yes",
+    "link": "https://fly.io/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "docker",
+      "elixir",
+      "go"
+    ],
+    "logo": "https://fly.io/static/images/fly-logo.svg"
+  },
+  {
+    "toolName": "Google Cloud Free Tier",
+    "useCase": "Cloud computing services",
+    "category": "Cloud",
+    "tags": [
+      "gcp",
+      "cloud",
+      "compute"
+    ],
+    "freeWhat": "$300 credits for 90 days + 20+ always free products (e2-micro instance)",
+    "duration": "Always Free + Trial",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "Yes",
+    "link": "https://cloud.google.com/free",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "vps",
+      "hosting"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg",
+    "estimatedValue": 25000
+  },
+  {
+    "toolName": "Oracle Cloud Free Tier",
+    "useCase": "Enterprise cloud services",
+    "category": "Cloud",
+    "tags": [
+      "oracle",
+      "vm",
+      "hosting"
+    ],
+    "freeWhat": "2 AMD Compute VMs + 4 ARM Ampere instances (generous RAM/CPU)",
+    "duration": "Always Free",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "Yes",
+    "link": "https://www.oracle.com/cloud/free/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "vps",
+      "minecraft server",
+      "heavy lifting"
+    ],
+    "badge": "Very Generous",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Oracle_Logo.svg"
+  },
+  {
+    "toolName": "DigitalOcean (for Students)",
+    "useCase": "Simple, scalable cloud computing",
+    "category": "Student ID Benefits",
+    "tags": [
+      "vps",
+      "hosting",
+      "droplet"
+    ],
+    "freeWhat": "$200 credit for 1 year (via GitHub Student Pack)",
+    "duration": "1 Year",
+    "eligibility": "GitHub Student Pack",
+    "requiresCreditCard": "Often No if via Pack",
+    "link": "https://www.digitalocean.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "vps",
+      "deployments"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/ff/DigitalOcean_logo.svg",
+    "estimatedValue": 16600
+  },
+  {
+    "toolName": "Cloudflare Pages",
+    "useCase": "JAMstack platform for frontend developers",
+    "category": "Hosting",
+    "tags": [
+      "static",
+      "frontend",
+      "cdn"
+    ],
+    "freeWhat": "Unlimited sites, bandwidth, and requests",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://pages.cloudflare.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "static sites",
+      "hugo",
+      "react"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cloudflare_Logo.svg"
+  },
+  {
+    "toolName": "GitHub Pages",
+    "useCase": "Websites for you and your projects",
+    "category": "Hosting",
+    "tags": [
+      "static",
+      "simple",
+      "jekyll"
+    ],
+    "freeWhat": "Host static sites directly from your repository",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://pages.github.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "docs",
+      "portfolio"
+    ],
+    "logo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+  },
+  {
+    "toolName": "Auth0",
+    "useCase": "Authentication & Authorization platform",
+    "category": "Auth",
+    "tags": [
+      "auth",
+      "security",
+      "login"
+    ],
+    "freeWhat": "7,000 active users, unlimited logins",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://auth0.com/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "authentication",
+      "security"
+    ],
+    "logo": "https://cdn.auth0.com/website/bob/press/shield-dark.png"
+  },
+  {
+    "toolName": "Clerk",
+    "useCase": "Complete User Management (Auth) for React/Next.js",
+    "category": "Auth",
+    "tags": [
+      "auth",
+      "react",
+      "nextjs"
+    ],
+    "freeWhat": "10,000 monthly active users",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://clerk.com/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "nextjs apps",
+      "modern auth"
+    ],
+    "badge": "Easiest Auth",
+    "logo": "https://clerk.com/_next/image?url=%2Fimages%2Fbrand-assets%2Flogo-icon-dark.png&w=96&q=75",
+    "estimatedValue": 3500
+  },
+  {
+    "toolName": "Firebase Auth",
+    "useCase": "Backend-as-a-Service Authentication",
+    "category": "Auth",
+    "tags": [
+      "auth",
+      "google",
+      "mobile"
+    ],
+    "freeWhat": "Unlimited phone/email auth (limits on SMS)",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://firebase.google.com/products/auth",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "mobile apps",
+      "quick start"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/37/Firebase_Logo.svg"
+  },
+  {
+    "toolName": "Sentry",
+    "useCase": "Application monitoring and error tracking",
+    "category": "Tools",
+    "tags": [
+      "monitoring",
+      "debugging",
+      "logging"
+    ],
+    "freeWhat": "Developer plan: 5k errors, 10k transactions / mo",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://sentry.io/pricing/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "production apps",
+      "debugging"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/65/Sentry-logo.svg"
+  },
+  {
+    "toolName": "UptimeRobot",
+    "useCase": "Website uptime monitoring",
+    "category": "Tools",
+    "tags": [
+      "monitoring",
+      "uptime",
+      "alerting"
+    ],
+    "freeWhat": "50 monitors, 5-minute checks",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://uptimerobot.com/pricing/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "monitoring",
+      "status pages"
+    ]
+  },
+  {
+    "toolName": "Postman",
+    "useCase": "API Platform for building and using APIs",
+    "category": "Dev Tools",
+    "tags": [
+      "api",
+      "testing",
+      "development"
+    ],
+    "freeWhat": "Free for individuals & small teams (limits on collections sharing)",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.postman.com/pricing/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "api testing",
+      "backend dev"
+    ],
+    "logo": "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+  },
+  {
+    "toolName": "Insomnia",
+    "useCase": "Open Source API Client",
+    "category": "Dev Tools",
+    "tags": [
+      "api",
+      "graphql",
+      "rest"
+    ],
+    "freeWhat": "Local collection runner, unlimited requests",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://insomnia.rest/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "api testing",
+      "simple"
+    ]
+  },
+  {
+    "toolName": "Docker Desktop",
+    "useCase": "Containerization platform",
+    "category": "Dev Tools",
+    "tags": [
+      "containers",
+      "devops",
+      "cloud"
+    ],
+    "freeWhat": "Free for individuals, students, open source, & small businesses",
+    "duration": "Free Forever",
+    "eligibility": "Anyone (<$10m revenue)",
+    "requiresCreditCard": "No",
+    "link": "https://www.docker.com/pricing/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "devops",
+      "local dev"
+    ],
+    "logo": "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png"
+  },
+  {
+    "toolName": "Unsplash",
+    "useCase": "Beautiful Free Images & Photos",
+    "category": "Assets",
+    "tags": [
+      "images",
+      "photos",
+      "design"
+    ],
+    "freeWhat": "Over 3 million free high-resolution images",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://unsplash.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "content",
+      "backgrounds"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Unsplash_wordmark_logo.svg"
+  },
+  {
+    "toolName": "Pexels",
+    "useCase": "Free stock photos & videos",
+    "category": "Assets",
+    "tags": [
+      "video",
+      "images",
+      "stock"
+    ],
+    "freeWhat": "Free stock photos and videos royalty free",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.pexels.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "videos",
+      "content"
+    ]
+  },
+  {
+    "toolName": "Undraw",
+    "useCase": "Open-source illustrations for any project",
+    "category": "Assets",
+    "tags": [
+      "illustrations",
+      "svg",
+      "design"
+    ],
+    "freeWhat": "Open-source illustrations, customizable color",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://undraw.co/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "landing pages",
+      "ui"
+    ]
+  },
+  {
+    "toolName": "Lucide Icons",
+    "useCase": "Beautiful & consistent icon toolkit",
+    "category": "Assets",
+    "tags": [
+      "icons",
+      "svg",
+      "react"
+    ],
+    "freeWhat": "Open source icon library (fork of Feather)",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://lucide.dev/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "ui design",
+      "apps"
+    ]
+  },
+  {
+    "toolName": "Font Awesome",
+    "useCase": "The web's most popular icon set",
+    "category": "Assets",
+    "tags": [
+      "icons",
+      "fonts",
+      "css"
+    ],
+    "freeWhat": "Free plan includes thousands of standard icons",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://fontawesome.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "websites",
+      "quick icons"
+    ]
+  },
+  {
+    "toolName": "Google Fonts",
+    "useCase": "Library of 1,400+ open source font families",
+    "category": "Assets",
+    "tags": [
+      "fonts",
+      "typography",
+      "design"
+    ],
+    "freeWhat": "All fonts are free and open source",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://fonts.google.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "typography",
+      "branding"
+    ]
+  },
+  {
+    "toolName": "Coolors",
+    "useCase": "Super fast color palettes generator",
+    "category": "Assets",
+    "tags": [
+      "colors",
+      "design",
+      "tools"
+    ],
+    "freeWhat": "Generate unlimited palettes",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://coolors.co/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "design system",
+      "inspiration"
+    ]
+  },
+  {
+    "toolName": "Canva Education",
+    "useCase": "Design platform for everyone",
+    "category": "Student ID Benefits",
+    "tags": [
+      "design",
+      "social media",
+      "marketing"
+    ],
+    "freeWhat": "Canva Pro features free for K-12 students & teachers",
+    "duration": "While in school",
+    "eligibility": "Teacher/Student",
+    "requiresCreditCard": "No",
+    "link": "https://www.canva.com/education/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "presentations",
+      "posters"
+    ]
+  },
+  {
+    "toolName": "Resend",
+    "useCase": "Email API for developers",
+    "category": "API",
+    "tags": [
+      "email",
+      "api",
+      "transactional"
+    ],
+    "freeWhat": "3,000 emails/mo, 100 emails/day",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://resend.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "email integration",
+      "notifications"
+    ],
+    "badge": "Modern",
+    "logo": "https://resend.com/static/brand/resend-icon-black.svg"
+  },
+  {
+    "toolName": "Brevo (Sendinblue)",
+    "useCase": "Email marketing & transactional API",
+    "category": "API",
+    "tags": [
+      "email",
+      "marketing",
+      "crm"
+    ],
+    "freeWhat": "300 emails/day",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.brevo.com/pricing/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "marketing",
+      "newsletters"
+    ]
+  },
+  {
+    "toolName": "Mailgun",
+    "useCase": "Transactional Email API",
+    "category": "API",
+    "tags": [
+      "email",
+      "api",
+      "infrastructure"
+    ],
+    "freeWhat": "5,000 free emails per month (trial often extended or low volume free tier)",
+    "duration": "Usage based",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "Yes",
+    "link": "https://www.mailgun.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "reliable email"
+    ]
+  },
+  {
+    "toolName": "Cloudinary",
+    "useCase": "Image and Video Management API",
+    "category": "API",
+    "tags": [
+      "images",
+      "cdn",
+      "optimization"
+    ],
+    "freeWhat": "Generous free tier with credits for 25k transformations",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://cloudinary.com/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "image hosting",
+      "media apps"
+    ]
+  },
+  {
+    "toolName": "Trello",
+    "useCase": "Visual project management",
+    "category": "Productivity",
+    "tags": [
+      "kanban",
+      "planning",
+      "tasks"
+    ],
+    "freeWhat": "10 boards per Workspace, unlimited cards",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://trello.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "projects",
+      "scrum"
+    ]
+  },
+  {
+    "toolName": "Obsidian",
+    "useCase": "Private and flexible note-taking app",
+    "category": "Productivity",
+    "tags": [
+      "notes",
+      "markdown",
+      "pkm"
+    ],
+    "freeWhat": "Free for personal use forever",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://obsidian.md/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "second brain",
+      "docs"
+    ]
+  },
+  {
+    "toolName": "Excalidraw",
+    "useCase": "Virtual whiteboard for sketching hand-drawn like diagrams",
+    "category": "Productivity",
+    "tags": [
+      "diagram",
+      "drawing",
+      "whiteboard"
+    ],
+    "freeWhat": "Free open source tool (Plus version paid)",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://excalidraw.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "system design",
+      "sketching"
+    ]
+  },
+  {
+    "toolName": "Slack",
+    "useCase": "Team communication platform",
+    "category": "Communication",
+    "tags": [
+      "chat",
+      "collaboration",
+      "remote"
+    ],
+    "freeWhat": "90 days of message history, 1:1 huddles",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://slack.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "teams",
+      "communities"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg"
+  },
+  {
+    "toolName": "Discord",
+    "useCase": "Chat for communities and friends",
+    "category": "Communication",
+    "tags": [
+      "chat",
+      "community",
+      "voice"
+    ],
+    "freeWhat": "Unlimited messages, voice, video (Server limits apply)",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://discord.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "gaming",
+      "dev communities"
+    ],
+    "logo": "https://assets-global.website-files.com/6257adef93867e56f84d3092/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png"
+  },
+  {
+    "toolName": "Linear",
+    "useCase": "Issue tracking built for speed",
+    "category": "Productivity",
+    "tags": [
+      "issues",
+      "project management",
+      "scrum"
+    ],
+    "freeWhat": "Free for up to 250 issues (archived not counted)",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://linear.app/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "modern teams",
+      "startups"
+    ]
+  },
+  {
+    "toolName": "Stripe",
+    "useCase": "Financial infrastructure for the internet",
+    "category": "API",
+    "tags": [
+      "payments",
+      "billing",
+      "finance"
+    ],
+    "freeWhat": "No monthly fees, pay per transaction",
+    "duration": "Pay-as-you-go",
+    "eligibility": "Anyone (Supported countries)",
+    "requiresCreditCard": "Bank Account",
+    "link": "https://stripe.com/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "monetization",
+      "ecommerce"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Stripe_Logo%2C_revised_2016.svg"
+  },
+  {
+    "toolName": "Namecheap (Student)",
+    "useCase": "Domain registration and hosting",
+    "category": "Hosting",
+    "tags": [
+      "domains",
+      "student"
+    ],
+    "freeWhat": "Free .me domain for 1 year",
+    "duration": "1 Year",
+    "eligibility": "Student Email / GitHub Pack",
+    "requiresCreditCard": "Usually No",
+    "link": "https://nc.me/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "personal site",
+      "projects"
+    ]
+  },
+  {
+    "toolName": "GitLab",
+    "useCase": "The One DevOps Platform",
+    "category": "Dev Tools",
+    "tags": [
+      "git",
+      "ci/cd",
+      "devops"
+    ],
+    "freeWhat": "5GB storage, 400 CI/CD minutes per month",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "Yes (verification)",
+    "link": "https://about.gitlab.com/pricing/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "ci/cd",
+      "private repos"
+    ]
+  },
+  {
+    "toolName": "Bitbucket",
+    "useCase": "Git solution for professional teams",
+    "category": "Dev Tools",
+    "tags": [
+      "git",
+      "jira",
+      "atlassian"
+    ],
+    "freeWhat": "Up to 5 users, free CI/CD (50 mins/mo)",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://bitbucket.org/product/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "jira integration",
+      "small teams"
+    ]
+  },
+  {
+    "toolName": "Replit",
+    "useCase": "Collaborative browser-based IDE",
+    "category": "Dev Tools",
+    "tags": [
+      "ide",
+      "online",
+      "learning"
+    ],
+    "freeWhat": "Unlimited public Repls, small storage",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://replit.com/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "prototyping",
+      "learning"
+    ]
+  },
+  {
+    "toolName": "CodePen",
+    "useCase": "Social development environment for front-end",
+    "category": "Dev Tools",
+    "tags": [
+      "frontend",
+      "css",
+      "html"
+    ],
+    "freeWhat": "Unlimited public pens",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://codepen.io/accounts/signup",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "demos",
+      "css art"
+    ]
+  },
+  {
+    "toolName": "GIMP",
+    "useCase": "Open Source Image Editor",
+    "category": "Design",
+    "tags": [
+      "graphics",
+      "editor",
+      "opensource"
+    ],
+    "freeWhat": "Complete software (Open Source)",
+    "duration": "Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.gimp.org/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "photo editing",
+      "linux"
+    ]
+  },
+  {
+    "toolName": "Inkscape",
+    "useCase": "Professional Vector Graphics Editor",
+    "category": "Design",
+    "tags": [
+      "vector",
+      "svg",
+      "illustrator"
+    ],
+    "freeWhat": "Complete software (Open Source)",
+    "duration": "Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://inkscape.org/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "logos",
+      "vectors"
+    ]
+  },
+  {
+    "toolName": "Blender",
+    "useCase": "Open Source 3D Creation Suite",
+    "category": "Design",
+    "tags": [
+      "3d",
+      "animation",
+      "modeling"
+    ],
+    "freeWhat": "Complete software (Open Source)",
+    "duration": "Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.blender.org/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "3d support",
+      "rendering"
+    ]
+  },
+  {
+    "toolName": "OpenAI API",
+    "useCase": "Access GPT models via API",
+    "category": "AI & ML",
+    "tags": [
+      "ai",
+      "gpt",
+      "llm"
+    ],
+    "freeWhat": "$5 free credit for 3 months (new accounts)",
+    "duration": "3 months",
+    "eligibility": "New Account",
+    "requiresCreditCard": "Telephone Validation",
+    "link": "https://openai.com/api/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "ai apps",
+      "chatbots"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg"
+  },
+  {
+    "toolName": "Hugging Face",
+    "useCase": "The AI community building the future",
+    "category": "AI & ML",
+    "tags": [
+      "ml",
+      "models",
+      "datasets"
+    ],
+    "freeWhat": "Free model hosting, Spaces (CPU/small/free tier)",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://huggingface.co/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hosting models",
+      "demos"
+    ],
+    "logo": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+  },
+  {
+    "toolName": "Google Colab",
+    "useCase": "Hosted Jupyter Notebooks",
+    "category": "AI & ML",
+    "tags": [
+      "python",
+      "datascience",
+      "gpu"
+    ],
+    "freeWhat": "Free access to GPUs (K80/T4) and TPUs",
+    "duration": "Free Forever",
+    "eligibility": "Anyone (Google Account)",
+    "requiresCreditCard": "No",
+    "link": "https://colab.research.google.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "training",
+      "learning"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg"
+  },
+  {
+    "toolName": "Kaggle",
+    "useCase": "Data Science Community & Competitions",
+    "category": "AI & ML",
+    "tags": [
+      "data",
+      "competitions",
+      "learning"
+    ],
+    "freeWhat": "Free Notebooks (GPU/TPU) and Datasets",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.kaggle.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "datasets",
+      "competitions"
+    ]
+  },
+  {
+    "toolName": "freeCodeCamp",
+    "useCase": "Learn to code for free",
+    "category": "Learning",
+    "tags": [
+      "education",
+      "web",
+      "certifications"
+    ],
+    "freeWhat": "Thousands of hours of curriculum and certs",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.freecodecamp.org/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "beginners",
+      "career shift"
+    ],
+    "badge": "Top Learning",
+    "logo": "https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg"
+  },
+  {
+    "toolName": "CS50",
+    "useCase": "Harvard's Introduction to Computer Science",
+    "category": "Learning",
+    "tags": [
+      "course",
+      "cs",
+      "harvard"
+    ],
+    "freeWhat": "Full course access via edX or OpenCourseWare",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://cs50.harvard.edu/x/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "fundamentals",
+      "cs"
+    ]
+  },
+  {
+    "toolName": "The Odin Project",
+    "useCase": "Full stack curriculum",
+    "category": "Learning",
+    "tags": [
+      "web",
+      "ruby",
+      "javascript"
+    ],
+    "freeWhat": "Complete open source curriculum",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.theodinproject.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "web dev job",
+      "bootcamp"
+    ]
+  },
+  {
+    "toolName": "Roadmap.sh",
+    "useCase": "Developer Roadmaps",
+    "category": "Learning",
+    "tags": [
+      "career",
+      "guides",
+      "planning"
+    ],
+    "freeWhat": "Visual guides to learning paths",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://roadmap.sh/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "direction",
+      "skills"
+    ]
+  },
+  {
+    "toolName": "DevDocs",
+    "useCase": "API Documentation Browser",
+    "category": "Learning",
+    "tags": [
+      "docs",
+      "offline",
+      "reference"
+    ],
+    "freeWhat": "Unified documentation for 100+ technologies",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://devdocs.io/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "quick ref",
+      "offline"
+    ]
+  },
+  {
+    "toolName": "Carbon",
+    "useCase": "Create beautiful images of your code",
+    "category": "Tools",
+    "tags": [
+      "design",
+      "social",
+      "snippets"
+    ],
+    "freeWhat": "Full functionality",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://carbon.now.sh/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "sharing code",
+      "twitter"
+    ]
+  },
+  {
+    "toolName": "RapidAPI",
+    "useCase": "The Next Generation API Platform",
+    "category": "API",
+    "tags": [
+      "api",
+      "hub",
+      "marketplace"
+    ],
+    "freeWhat": "Many APIs have free tiers (Basic)",
+    "duration": "Usage based",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No (for free tiers usually)",
+    "link": "https://rapidapi.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "finding apis",
+      "testing"
+    ]
+  },
+  {
+    "toolName": "JSONPlaceholder",
+    "useCase": "Free fake API for testing and prototyping",
+    "category": "API",
+    "tags": [
+      "testing",
+      "mock",
+      "json"
+    ],
+    "freeWhat": "Unlimited fetching of fake data",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://jsonplaceholder.typicode.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "demos",
+      "tutorials"
+    ]
+  },
+  {
+    "toolName": "ReqRes",
+    "useCase": "Test your front-end against a real API",
+    "category": "API",
+    "tags": [
+      "mock",
+      "testing",
+      "rest"
+    ],
+    "freeWhat": "Free hosted REST-API",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://reqres.in/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "prototyping",
+      "frontend"
+    ]
+  },
+  {
+    "toolName": "CockroachDB Serverless",
+    "useCase": "Distributed SQL Database",
+    "category": "Database",
+    "tags": [
+      "sql",
+      "distributed",
+      "serverless"
+    ],
+    "freeWhat": "5GB storage, 250M RUs per month",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "Yes (verification)",
+    "link": "https://www.cockroachlabs.com/pricing/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "resilience",
+      "scale"
+    ]
+  },
+  {
+    "toolName": "Redis Cloud",
+    "useCase": "Fully managed Redis",
+    "category": "Database",
+    "tags": [
+      "redis",
+      "cache",
+      "nosql"
+    ],
+    "freeWhat": "30MB storage (Free subscription)",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://redis.com/try-free/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "caching",
+      "fast data"
+    ]
+  },
+  {
+    "toolName": "Upstash",
+    "useCase": "Serverless Data (Redis, Kafka, QStash)",
+    "category": "Database",
+    "tags": [
+      "redis",
+      "kafka",
+      "serverless"
+    ],
+    "freeWhat": "10k requests/day (Redis), 10k messages/day (Kafka)",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://upstash.com/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "serverless",
+      "edge"
+    ]
+  },
+  {
+    "toolName": "Twilio (Trial)",
+    "useCase": "Communication APIs for SMS, Voice, and Video",
+    "category": "API",
+    "tags": [
+      "sms",
+      "voice",
+      "communication"
+    ],
+    "freeWhat": "$15.50 free trial credit (requires verification)",
+    "duration": "Once",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No (Phone Verify)",
+    "link": "https://www.twilio.com/try-twilio",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hackathons",
+      "sms"
+    ]
+  },
+  {
+    "toolName": "Mixpanel",
+    "useCase": "Product Analytics",
+    "category": "Tools",
+    "tags": [
+      "analytics",
+      "tracking",
+      "data"
+    ],
+    "freeWhat": "20M events per month",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://mixpanel.com/pricing/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "user tracking",
+      "saas"
+    ]
+  },
+  {
+    "toolName": "Hotjar",
+    "useCase": "Heatmaps & Recordings",
+    "category": "Tools",
+    "tags": [
+      "analytics",
+      "ux",
+      "heatmaps"
+    ],
+    "freeWhat": "35 daily sessions",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.hotjar.com/pricing/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "ux research",
+      "optimization"
+    ]
+  },
+  {
+    "toolName": "Google Workspace (Student)",
+    "useCase": "Email, Storage, Docs",
+    "category": "Productivity",
+    "tags": [
+      "email",
+      "docs",
+      "storage"
+    ],
+    "freeWhat": "Education Fundamentals (through institution)",
+    "duration": "While student",
+    "eligibility": "School",
+    "requiresCreditCard": "No",
+    "link": "https://edu.google.com/workspace-for-education/editions/education-fundamentals/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "collaboration",
+      "school"
+    ]
+  },
+  {
+    "toolName": "Microsoft 365 Education",
+    "useCase": "Office apps, Teams, OneDrive",
+    "category": "Productivity",
+    "tags": [
+      "office",
+      "docs",
+      "email"
+    ],
+    "freeWhat": "Office 365 A1 (Web apps + Teams)",
+    "duration": "While student",
+    "eligibility": "School email",
+    "requiresCreditCard": "No",
+    "link": "https://www.microsoft.com/en-us/education/products/office",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "word",
+      "excel",
+      "teams"
+    ]
+  },
+  {
+    "toolName": "IconScout",
+    "useCase": "Design Assets Marketplace",
+    "category": "Assets",
+    "tags": [
+      "icons",
+      "3d",
+      "lottie"
+    ],
+    "freeWhat": "Hundreds of free assets and 3D illustrations",
+    "duration": "Free requests",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://iconscout.com/free-assets",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "3d icons",
+      "ui"
+    ]
+  },
+  {
+    "toolName": "LottieFiles",
+    "useCase": "Lightweight animations for websites/apps",
+    "category": "Assets",
+    "tags": [
+      "animation",
+      "lottie",
+      "json"
+    ],
+    "freeWhat": "Unlimited free animations usage",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://lottiefiles.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "loading spinners",
+      "delight"
+    ]
+  },
+  {
+    "toolName": "Algolia",
+    "useCase": "Search API as a Service",
+    "category": "API",
+    "tags": [
+      "search",
+      "indexing",
+      "fast"
+    ],
+    "freeWhat": "10k search requests/month, 10k records",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.algolia.com/pricing/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "search bar",
+      "ecommerce"
+    ]
+  },
+  {
+    "toolName": "Typesense Cloud",
+    "useCase": "Open Source Algolia Alternative",
+    "category": "API",
+    "tags": [
+      "search",
+      "opensource",
+      "fast"
+    ],
+    "freeWhat": "Self-host is free; Cloud has trial",
+    "duration": "Forever (Self-hosted)",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://typesense.org/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "search",
+      "self-host"
+    ]
+  },
+  {
+    "toolName": "Prisma",
+    "useCase": "Next-generation Node.js and TypeScript ORM",
+    "category": "Dev Tools",
+    "tags": [
+      "orm",
+      "database",
+      "typescript"
+    ],
+    "freeWhat": "Open source ORM, Prisma Studio",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.prisma.io/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "database access",
+      "type safety"
+    ]
+  },
+  {
+    "toolName": "Strapi",
+    "useCase": "Open source Node.js Headless CMS",
+    "category": "API",
+    "tags": [
+      "cms",
+      "headless",
+      "api"
+    ],
+    "freeWhat": "Community Edition is free forever (self-hosted)",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://strapi.io/pricing-self-hosted",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "content management",
+      "blogs"
+    ]
+  },
+  {
+    "toolName": "Sanity.io",
+    "useCase": "Platform for structured content",
+    "category": "API",
+    "tags": [
+      "cms",
+      "headless",
+      "realtime"
+    ],
+    "freeWhat": "Free forever plan: generous usage limits, 3 users",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.sanity.io/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "flexible content",
+      "react"
+    ]
+  },
+  {
+    "toolName": "Contentful",
+    "useCase": "Headless CMS",
+    "category": "API",
+    "tags": [
+      "cms",
+      "headless",
+      "enterprise"
+    ],
+    "freeWhat": "Community plan: free for 5 users, 25k records",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.contentful.com/pricing/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "enterprise grade",
+      "structured content"
+    ]
+  },
+  {
+    "toolName": "Warp Terminal",
+    "useCase": "Rust-based terminal with AI",
+    "category": "Dev Tools",
+    "tags": [
+      "terminal",
+      "mac",
+      "ai"
+    ],
+    "freeWhat": "Free for individuals",
+    "duration": "Free Forever",
+    "eligibility": "Anyone (Mac/Linux)",
+    "requiresCreditCard": "No",
+    "link": "https://www.warp.dev/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "productivity",
+      "cli"
+    ]
+  },
+  {
+    "toolName": "Raycast",
+    "useCase": "Blazingly fast, extendable launcher",
+    "category": "Productivity",
+    "tags": [
+      "launcher",
+      "mac",
+      "productivity"
+    ],
+    "freeWhat": "Core features completely free",
+    "duration": "Free Forever",
+    "eligibility": "User (Mac)",
+    "requiresCreditCard": "No",
+    "link": "https://www.raycast.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "mac users",
+      "speed"
+    ]
+  },
+  {
+    "toolName": "Oh My Zsh",
+    "useCase": "Framework for managing your Zsh configuration",
+    "category": "Dev Tools",
+    "tags": [
+      "terminal",
+      "zsh",
+      "opensource"
+    ],
+    "freeWhat": "Fully open source",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://ohmyz.sh/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "terminal customization",
+      "plugins"
+    ]
+  },
+  {
+    "toolName": "Mapbox",
+    "useCase": "Maps and location for developers",
+    "category": "API",
+    "tags": [
+      "maps",
+      "location",
+      "geo"
+    ],
+    "freeWhat": "50,000 monthly map loads free",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.mapbox.com/pricing/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "maps",
+      "location apps"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Mapbox_logo_2019.svg"
+  },
+  {
+    "toolName": "CircleCI",
+    "useCase": "Continuous Integration & Delivery",
+    "category": "Dev Tools",
+    "tags": [
+      "ci/cd",
+      "devops",
+      "automation"
+    ],
+    "freeWhat": "6,000 build minutes per month",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://circleci.com/pricing/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "automation",
+      "testing"
+    ]
+  },
+  {
+    "toolName": "Cypress",
+    "useCase": "Fast, easy and reliable testing for anything that runs in a browser",
+    "category": "Dev Tools",
+    "tags": [
+      "testing",
+      "e2e",
+      "javascript"
+    ],
+    "freeWhat": "500 test results per month",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.cypress.io/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "testing",
+      "frontend"
+    ]
+  },
+  {
+    "toolName": "Appwrite",
+    "useCase": "Secure Open Source Backend Server",
+    "category": "Backend",
+    "tags": [
+      "backend",
+      "firebase-alt",
+      "opensource"
+    ],
+    "freeWhat": "Self-hosted is free; Cloud has free tier",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://appwrite.io/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "web",
+      "mobile",
+      "flutter"
+    ],
+    "logo": "https://appwrite.io/images/logos/appwrite.svg"
+  },
+  {
+    "toolName": "PocketBase",
+    "useCase": "Open Source backend in 1 file",
+    "category": "Backend",
+    "tags": [
+      "backend",
+      "go",
+      "sqlite"
+    ],
+    "freeWhat": "Free open source software (self-host)",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://pocketbase.io/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "side projects",
+      "rapid dev"
+    ],
+    "logo": "https://pocketbase.io/images/logo.svg"
+  },
+  {
+    "toolName": "Hashnode",
+    "useCase": "Blogging community for developers",
+    "category": "Content",
+    "tags": [
+      "blogging",
+      "community",
+      "dev"
+    ],
+    "freeWhat": "Free mapping to custom domain",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://hashnode.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "blogging",
+      "personal brand"
+    ],
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png?auto=compress"
+  },
+  {
+    "toolName": "CodeSandbox",
+    "useCase": "Instant cloud development environment",
+    "category": "Dev Tools",
+    "tags": [
+      "ide",
+      "cloud",
+      "collaboration"
+    ],
+    "freeWhat": "Unlimited public sandboxes",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://codesandbox.io/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "prototyping",
+      "sharing code"
+    ],
+    "logo": "https://codesandbox.io/static/img/banner.png"
+  },
+  {
+    "toolName": "StackBlitz",
+    "useCase": "Instant dev environments",
+    "category": "Dev Tools",
+    "tags": [
+      "ide",
+      "webcontainers",
+      "fast"
+    ],
+    "freeWhat": "Unlimited public projects",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://stackblitz.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "angular",
+      "react",
+      "vue"
+    ],
+    "logo": "https://c.staticblitz.com/assets/icon-6644935420d3819cb412.png"
+  },
+  {
+    "toolName": "Google Maps Platform",
+    "useCase": "Maps, Routes, and Places APIs",
+    "category": "API",
+    "tags": [
+      "maps",
+      "google",
+      "location"
+    ],
+    "freeWhat": "$200 monthly credit",
+    "duration": "Monthly",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "Yes",
+    "link": "https://mapsplatform.google.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "location based apps"
+    ]
+  },
+  {
+    "toolName": "SendGrid",
+    "useCase": "Email Delivery Service",
+    "category": "API",
+    "tags": [
+      "email",
+      "transactional",
+      "marketing"
+    ],
+    "freeWhat": "100 emails per day forever",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://sendgrid.com/pricing/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "email",
+      "notifications"
+    ]
+  },
+  {
+    "toolName": "GitPod",
+    "useCase": "Ready-to-code developer environments",
+    "category": "Dev Tools",
+    "tags": [
+      "ide",
+      "cloud",
+      "automation"
+    ],
+    "freeWhat": "50 hours per month",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.gitpod.io/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "contributing",
+      "heavy workspaces"
+    ]
+  },
+  {
+    "toolName": "Storybook",
+    "useCase": "Frontend workshop for UI development",
+    "category": "Dev Tools",
+    "tags": [
+      "ui",
+      "documentation",
+      "testing"
+    ],
+    "freeWhat": "Open Source tool",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://storybook.js.org/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "design systems",
+      "components"
+    ],
+    "logo": "https://storybook.js.org/images/logos/icon-storybook.png"
+  },
+  {
+    "toolName": "Daily.co",
+    "useCase": "Real-time video and audio API",
+    "category": "API",
+    "tags": [
+      "video",
+      "webrtc",
+      "audio"
+    ],
+    "freeWhat": "10,000 participant minutes per month",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.daily.co/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "video calls",
+      "audio rooms"
+    ]
+  },
+  {
+    "toolName": "Better Uptime",
+    "useCase": "Uptime monitoring & incident management",
+    "category": "Tools",
+    "tags": [
+      "monitoring",
+      "uptime",
+      "status page"
+    ],
+    "freeWhat": "Free monitoring, email alerts, 1 status page",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://betterstack.com/uptime",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "reliability",
+      "alerts"
+    ]
+  },
+  {
+    "toolName": "ProtonMail",
+    "useCase": "Secure Email based in Switzerland",
+    "category": "Productivity",
+    "tags": [
+      "email",
+      "privacy",
+      "security"
+    ],
+    "freeWhat": "500MB storage, 150 messages/day",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://proton.me/mail/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "privacy",
+      "security"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/80/Proton_Mail_2024.svg"
+  },
+  {
+    "toolName": "KiCad",
+    "useCase": "Cross-platform electronics design automation suite (EDA)",
+    "category": "Electronics & Entc",
+    "tags": [
+      "pcb design",
+      "schematic",
+      "eda",
+      "simulation"
+    ],
+    "freeWhat": "Full open-source software",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.kicad.org/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "electronics projects",
+      "pcb design"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Kicad_logo.svg"
+  },
+  {
+    "toolName": "Arduino IDE",
+    "useCase": "Write code and upload it to your board",
+    "category": "Electronics & Entc",
+    "tags": [
+      "embedded",
+      "iot",
+      "programming",
+      "microcontrollers"
+    ],
+    "freeWhat": "Full open-source IDE",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.arduino.cc/en/software",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "iot projects",
+      "robotics"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg"
+  },
+  {
+    "toolName": "LTspice",
+    "useCase": "High performance SPICE simulator software",
+    "category": "Electronics & Entc",
+    "tags": [
+      "simulation",
+      "circuits",
+      "analog",
+      "spice"
+    ],
+    "freeWhat": "Full software",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "circuit analysis",
+      "analog design"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/aa/LTspice_Icon.png"
+  },
+  {
+    "toolName": "FreeCAD",
+    "useCase": "Open-source parametric 3D modeler",
+    "category": "Mechanical Engineering",
+    "tags": [
+      "cad",
+      "3d modeling",
+      "manufacturing",
+      "product design"
+    ],
+    "freeWhat": "Full open-source software",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.freecad.org/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "3d printing",
+      "mechanical design"
+    ],
+    "logo": "https://wiki.freecad.org/images/0/0f/FreeCAD_icon.svg"
+  },
+  {
+    "toolName": "Autodesk Fusion 360 (Personal/Student)",
+    "useCase": "Integrated CAD, CAM, CAE, and PCB software",
+    "category": "Mechanical Engineering",
+    "tags": [
+      "cad",
+      "cam",
+      "simulation",
+      "cloud"
+    ],
+    "freeWhat": "Free for personal use and students (renewable)",
+    "duration": "1-3 Years",
+    "eligibility": "Student / Personal Use",
+    "requiresCreditCard": "No",
+    "link": "https://www.autodesk.com/products/fusion-360/personal",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "product design",
+      "manufacturing"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Fusion_360_Icon.png"
+  },
+  {
+    "toolName": "OpenSCAD",
+    "useCase": "The programmers solid 3D CAD modeller",
+    "category": "Mechanical Engineering",
+    "tags": [
+      "cad",
+      "programming",
+      "3d modeling"
+    ],
+    "freeWhat": "Full open-source software",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://openscad.org/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "parametric design",
+      "code-based modeling"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/53/OpenSCAD_Logo.png"
+  },
+  {
+    "toolName": "QGIS",
+    "useCase": "A Free and Open Source Geographic Information System",
+    "category": "Civil Engineering",
+    "tags": [
+      "gis",
+      "mapping",
+      "geospatial",
+      "surveying"
+    ],
+    "freeWhat": "Full open-source software",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.qgis.org/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "urban planning",
+      "geospatial analysis"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/91/QGIS_logo_new.svg"
+  },
+  {
+    "toolName": "EPANET",
+    "useCase": "Modeling water distribution piping systems",
+    "category": "Civil Engineering",
+    "tags": [
+      "hydraulics",
+      "water supply",
+      "simulation",
+      "infrastructure"
+    ],
+    "freeWhat": "Full software (Public Domain)",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.epa.gov/water-research/epanet",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "water systems",
+      "environmental engineering"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Epanet_2_icon.png"
+  },
+  {
+    "toolName": "SkyCiv (Free Tools)",
+    "useCase": "Cloud structural analysis software calculators",
+    "category": "Civil Engineering",
+    "tags": [
+      "structural analysis",
+      "beams",
+      "truss",
+      "cloud"
+    ],
+    "freeWhat": "Free online calculators for beams, trusses, etc.",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://skyciv.com/free-tools/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "structural calculations",
+      "quick analysis"
+    ],
+    "logo": "https://skyciv.com/wp-content/themes/skyciv/assets/img/logo-symbol-blue.svg"
+  },
+  {
+    "toolName": "SimulIDE",
+    "useCase": "Real-time electronic circuit simulator",
+    "category": "Electrical Engineering",
+    "tags": [
+      "simulation",
+      "circuits",
+      "microcontrollers",
+      "avr"
+    ],
+    "freeWhat": "Full open-source software",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://simulide.com/p/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "circuit testing",
+      "arduino simulation"
+    ],
+    "logo": "https://simulide.com/p/wp-content/uploads/2021/04/cropped-simulide_logo-1-192x192.png"
+  },
+  {
+    "toolName": "TinyCAD",
+    "useCase": "Draw circuit diagrams and export netlists",
+    "category": "Electrical Engineering",
+    "tags": [
+      "schematic",
+      "pcb",
+      "diagrams",
+      "windows"
+    ],
+    "freeWhat": "Full open-source software",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.tinycad.net/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "drawing circuits",
+      "schematics"
+    ],
+    "logo": "https://img.icons8.com/color/48/circuit.png"
+  },
+  {
+    "toolName": "Scilab",
+    "useCase": "Open source software for numerical computation",
+    "category": "Electrical Engineering",
+    "tags": [
+      "math",
+      "simulation",
+      "numerical analysis",
+      "matlab alternative"
+    ],
+    "freeWhat": "Full open-source software",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.scilab.org/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "control systems",
+      "signal processing"
+    ],
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/82/Scilab_logo.svg"
+  },
+  {
+    "toolName": "Falstad Circuit Simulator",
+    "useCase": "Mesmerizing visual circuit simulation",
+    "category": "Electronics & Entc",
+    "tags": [
+      "simulation",
+      "visual",
+      "interactive",
+      "physics"
+    ],
+    "freeWhat": "Full browser-based simulator",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.falstad.com/circuit/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "visual learners",
+      "viral demos"
+    ],
+    "badge": "Viral Visuals",
+    "logo": "https://www.falstad.com/circuit/icon.png"
+  },
+  {
+    "toolName": "Wokwi",
+    "useCase": "Simulate Arduino & ESP32 in your browser",
+    "category": "Electronics & Entc",
+    "tags": [
+      "arduino",
+      "esp32",
+      "iot",
+      "simulation"
+    ],
+    "freeWhat": "Unlimited public projects",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://wokwi.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "iot projects",
+      "embedded coding"
+    ],
+    "badge": "Browser Magic",
+    "logo": "https://avatars.githubusercontent.com/u/74641490?s=200&v=4"
+  },
+  {
+    "toolName": "Algodoo",
+    "useCase": "2D Physics Sandbox for mechanics",
+    "category": "Mechanical Engineering",
+    "tags": [
+      "physics",
+      "simulation",
+      "mechanics",
+      "sandbox"
+    ],
+    "freeWhat": "Full software (Mac/PC)",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "http://www.algodoo.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "mechanisms",
+      "physics fun"
+    ],
+    "badge": "Viral Physics",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/2/22/Algodoo_Icon.png"
+  },
+  {
+    "toolName": "SolveSpace",
+    "useCase": "Minimalist parametric 3D CAD",
+    "category": "Mechanical Engineering",
+    "tags": [
+      "cad",
+      "parametric",
+      "lightweight",
+      "open source"
+    ],
+    "freeWhat": "Full open-source software",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://solvespace.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "constrained design",
+      "low-spec pcs"
+    ],
+    "badge": "Hidden Gem",
+    "logo": "https://solvespace.com/g/logo.png"
+  },
+  {
+    "toolName": "Streetmix",
+    "useCase": "Design your own street cross-sections",
+    "category": "Civil Engineering",
+    "tags": [
+      "urban planning",
+      "design",
+      "visual",
+      "interactive"
+    ],
+    "freeWhat": "Full web-based tool",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://streetmix.net/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "urban design",
+      "presentations"
+    ],
+    "badge": "Insta Worthy",
+    "logo": "https://streetmix.net/images/favicon_large.png"
+  },
+  {
+    "toolName": "West Point Bridge Designer",
+    "useCase": "Design and test trusses with simulation",
+    "category": "Civil Engineering",
+    "tags": [
+      "bridges",
+      "structural analysis",
+      "simulation",
+      "game"
+    ],
+    "freeWhat": "Full software",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://ww2.eaglepoint.com/software/bridge-designer/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "truss analysis",
+      "competitions"
+    ],
+    "badge": "Classic",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/WPBD_2016_Logo.jpg/220px-WPBD_2016_Logo.jpg"
+  },
+  {
+    "toolName": "DCACLab",
+    "useCase": "Realistic browser-based circuit simulator",
+    "category": "Electrical Engineering",
+    "tags": [
+      "simulation",
+      "circuits",
+      "realistic",
+      "stem"
+    ],
+    "freeWhat": "Free tier available",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://dcaclab.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "visual experiments",
+      "teaching"
+    ],
+    "badge": "Visual",
+    "logo": "https://dcaclab.com/static/img/logo.png"
+  },
+  {
+    "toolName": "PLC Fiddle",
+    "useCase": "Create and test PLC Ladder Logic in browser",
+    "category": "Electrical Engineering",
+    "tags": [
+      "plc",
+      "automation",
+      "ladder logic",
+      "simulator"
+    ],
+    "freeWhat": "Full web tool",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.plcfiddle.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "automation learning",
+      "logic testing"
+    ],
+    "badge": "Unique Tool",
+    "logo": "https://pbs.twimg.com/profile_images/896176595679907840/6Wvj9xL-_400x400.jpg"
+  },
+  {
+    "toolName": "Google Gemini Pro Student",
+    "useCase": "1 year of Google One AI Premium (Gemini Advanced)",
+    "category": "Student ID Benefits",
+    "tags": [
+      "ai",
+      "premium",
+      "google",
+      "student"
+    ],
+    "freeWhat": "12 Months Free ($240 Value)",
+    "duration": "1 Year",
+    "eligibility": "Student Email / SheerID",
+    "requiresCreditCard": "Yes",
+    "link": "https://www.google.com/gemini/student-discount/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "research",
+      "coding help"
+    ],
+    "badge": "Huge $240 Savings",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg",
+    "estimatedValue": 23400
+  },
+  {
+    "toolName": "Cursor Pro Student",
+    "useCase": "The AI Code Editor you need",
+    "category": "Student ID Benefits",
+    "tags": [
+      "ai",
+      "coding",
+      "editor",
+      "vscode"
+    ],
+    "freeWhat": "1 Year Free Pro Plan ($240 Value)",
+    "duration": "1 Year",
+    "eligibility": "University Email",
+    "requiresCreditCard": "No",
+    "link": "https://cursor.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "coding",
+      "ai assistance"
+    ],
+    "badge": "AI Coding",
+    "logo": "https://cursor.com/brand/icon.svg",
+    "estimatedValue": 20000
+  },
+  {
+    "toolName": "Perplexity Pro Student",
+    "useCase": "AI Search Engine on steroids",
+    "category": "Student ID Benefits",
+    "tags": [
+      "research",
+      "ai",
+      "search",
+      "student"
+    ],
+    "freeWhat": "1 Year Free Pro Plan ($200 Value)",
+    "duration": "1 Year",
+    "eligibility": "Student Email",
+    "requiresCreditCard": "Yes",
+    "link": "https://www.perplexity.ai/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "research",
+      "learning"
+    ],
+    "badge": "Research Pro",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Perplexity_AI_logo.svg",
+    "estimatedValue": 20000
+  },
+  {
+    "toolName": "Student Flight Discounts (India)",
+    "useCase": "Discounts on Air India, Indigo, SpiceJet",
+    "category": "Student ID Benefits",
+    "tags": [
+      "travel",
+      "flights",
+      "discounts",
+      "india"
+    ],
+    "freeWhat": "Up to 25% Off + 10kg Extra Baggage",
+    "duration": "While Student",
+    "eligibility": "Valid College ID",
+    "requiresCreditCard": "No",
+    "link": "https://www.airindia.com/in/en/book/special-offers/student-offer.html",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "travel",
+      "holidays"
+    ],
+    "badge": "Travel Saver",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Air_India_Logo_2023.svg/300px-Air_India_Logo_2023.svg.png",
+    "estimatedValue": 2000
+  },
+  {
+    "toolName": "Spotify Premium Student",
+    "useCase": "Music without interruptions",
+    "category": "Student ID Benefits",
+    "tags": [
+      "music",
+      "entertainment",
+      "streaming"
+    ],
+    "freeWhat": "1 Month Free + 50% Off Monthly",
+    "duration": "While Student",
+    "eligibility": "SheerID Verification",
+    "requiresCreditCard": "Yes",
+    "link": "https://www.spotify.com/in-en/student/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "music",
+      "focus"
+    ],
+    "badge": "50% Off",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+    "estimatedValue": 720
+  },
+  {
+    "toolName": "Amazon Prime Student",
+    "useCase": "Prime Delivery, Video, Music & Gaming",
+    "category": "Student ID Benefits",
+    "tags": [
+      "shopping",
+      "entertainment",
+      "video",
+      "prime"
+    ],
+    "freeWhat": "6 Months Free + 50% Off Membership",
+    "duration": "6 Months Trial",
+    "eligibility": "Student Proof",
+    "requiresCreditCard": "Yes",
+    "link": "https://www.amazon.in/amazonprime/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "shopping",
+      "movies"
+    ],
+    "badge": "6 Months Free",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Amazon_icon.svg",
+    "estimatedValue": 750
+  },
+  {
+    "toolName": "Apple Music Student",
+    "useCase": "Music + Apple TV+ included",
+    "category": "Student ID Benefits",
+    "tags": [
+      "music",
+      "tv",
+      "entertainment",
+      "apple"
+    ],
+    "freeWhat": "Discounted rate + Free Apple TV+",
+    "duration": "While Student",
+    "eligibility": "UNiDAYS",
+    "requiresCreditCard": "Yes",
+    "link": "https://www.apple.com/in/apple-music/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "apple users",
+      "movies"
+    ],
+    "badge": "Includes Apple TV+",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Apple_Music_icon.svg",
+    "estimatedValue": 1700
+  },
+  {
+    "toolName": "YouTube Premium Student",
+    "useCase": "Ad-free YouTube & Background Play",
+    "category": "Student ID Benefits",
+    "tags": [
+      "video",
+      "music",
+      "ad-free"
+    ],
+    "freeWhat": "1 Month Free + ~50% Off Monthly",
+    "duration": "While Student",
+    "eligibility": "SheerID",
+    "requiresCreditCard": "Yes",
+    "link": "https://www.youtube.com/premium/student",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "learning",
+      "entertainment"
+    ],
+    "badge": "Ad Free",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg",
+    "estimatedValue": 600
+  },
+  {
+    "toolName": "Apple Education Store",
+    "useCase": "Discounts on Mac and iPad",
+    "category": "Student ID Benefits",
+    "tags": [
+      "hardware",
+      "apple",
+      "macbook",
+      "ipad"
+    ],
+    "freeWhat": "Up to ₹10k+ Off + Free AirPods/Pencil (seasonal)",
+    "duration": "Always",
+    "eligibility": "UNiDAYS",
+    "requiresCreditCard": "Yes",
+    "link": "https://www.apple.com/in/shop/education-pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "buying laptop",
+      "upgrade"
+    ],
+    "badge": "Hardware Deals",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+    "estimatedValue": 20000
+  },
+  {
+    "toolName": "Microsoft 365 Education",
+    "useCase": "Word, Excel, PowerPoint, OneNote",
+    "category": "Student ID Benefits",
+    "tags": [
+      "productivity",
+      "office",
+      "documents"
+    ],
+    "freeWhat": "Free for students at eligible institutions",
+    "duration": "While Student",
+    "eligibility": "School Email",
+    "requiresCreditCard": "No",
+    "link": "https://www.microsoft.com/en-in/education/products/office",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "assignments",
+      "projects"
+    ],
+    "badge": "Essential",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_365_%282022%29.svg",
+    "estimatedValue": 4900
+  }
+]
