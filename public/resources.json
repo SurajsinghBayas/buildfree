@@ -2935,5 +2935,426 @@
     "badge": "Essential",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_365_%282022%29.svg",
     "estimatedValue": 4900
+  },
+  {
+    "toolName": "Alchemy",
+    "useCase": "Web3 development platform & blockchain APIs",
+    "category": "Blockchain",
+    "tags": [
+      "web3",
+      "ethereum",
+      "blockchain",
+      "api",
+      "nft"
+    ],
+    "freeWhat": "300M compute units/month, Enhanced APIs, NFT API, Webhooks",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.alchemy.com/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hackathon",
+      "web3",
+      "dapp"
+    ],
+    "badge": "Top Pick",
+    "logo": "https://www.alchemy.com/favicon.ico",
+    "estimatedValue": 0
+  },
+  {
+    "toolName": "Infura",
+    "useCase": "Ethereum & IPFS API infrastructure",
+    "category": "Blockchain",
+    "tags": [
+      "web3",
+      "ethereum",
+      "ipfs",
+      "api",
+      "blockchain"
+    ],
+    "freeWhat": "100k requests/day, 3 projects, Ethereum + Polygon + IPFS",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.infura.io/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hackathon",
+      "web3",
+      "dapp"
+    ],
+    "badge": "Popular",
+    "logo": "https://www.infura.io/favicon.ico",
+    "estimatedValue": 0
+  },
+  {
+    "toolName": "Moralis",
+    "useCase": "Web3 SDK & backend infrastructure",
+    "category": "Blockchain",
+    "tags": [
+      "web3",
+      "sdk",
+      "nft",
+      "defi",
+      "blockchain"
+    ],
+    "freeWhat": "25k API calls/month, Real-time webhooks, NFT API, Token API",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://moralis.io/pricing/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hackathon",
+      "web3",
+      "nft"
+    ],
+    "badge": "Popular",
+    "logo": "https://moralis.io/favicon.ico",
+    "estimatedValue": 0
+  },
+  {
+    "toolName": "Thirdweb",
+    "useCase": "Web3 SDKs, smart contracts & infrastructure",
+    "category": "Blockchain",
+    "tags": [
+      "web3",
+      "sdk",
+      "nft",
+      "smart-contracts",
+      "blockchain"
+    ],
+    "freeWhat": "Free SDKs, pre-built contracts, wallet connection, IPFS storage",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://thirdweb.com/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hackathon",
+      "web3",
+      "nft"
+    ],
+    "badge": "Top Pick",
+    "logo": "https://thirdweb.com/favicon.ico",
+    "estimatedValue": 0
+  },
+  {
+    "toolName": "QuickNode",
+    "useCase": "Blockchain RPC endpoints & APIs",
+    "category": "Blockchain",
+    "tags": [
+      "web3",
+      "rpc",
+      "ethereum",
+      "solana",
+      "blockchain"
+    ],
+    "freeWhat": "10M API credits, 1 endpoint, 25+ chains supported",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.quicknode.com/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hackathon",
+      "web3"
+    ],
+    "badge": "Popular",
+    "logo": "https://www.quicknode.com/favicon.ico",
+    "estimatedValue": 0
+  },
+  {
+    "toolName": "Hardhat",
+    "useCase": "Ethereum development environment",
+    "category": "Blockchain",
+    "tags": [
+      "web3",
+      "ethereum",
+      "solidity",
+      "smart-contracts",
+      "testing"
+    ],
+    "freeWhat": "Complete dev environment, testing, debugging, deployment",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://hardhat.org/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hackathon",
+      "web3",
+      "smart-contracts"
+    ],
+    "badge": "Essential",
+    "logo": "https://hardhat.org/favicon.ico",
+    "estimatedValue": 0
+  },
+  {
+    "toolName": "Remix IDE",
+    "useCase": "Browser-based Solidity IDE",
+    "category": "Blockchain",
+    "tags": [
+      "web3",
+      "solidity",
+      "ide",
+      "smart-contracts",
+      "ethereum"
+    ],
+    "freeWhat": "Full IDE, compiler, debugger, deploy to testnets",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://remix.ethereum.org/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hackathon",
+      "web3",
+      "learning"
+    ],
+    "badge": "Essential",
+    "logo": "https://remix.ethereum.org/favicon.ico",
+    "estimatedValue": 0
+  },
+  {
+    "toolName": "MetaMask",
+    "useCase": "Crypto wallet & Web3 gateway",
+    "category": "Blockchain",
+    "tags": [
+      "web3",
+      "wallet",
+      "ethereum",
+      "browser-extension"
+    ],
+    "freeWhat": "Free wallet, connect to dApps, manage tokens & NFTs",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://metamask.io/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hackathon",
+      "web3"
+    ],
+    "badge": "Essential",
+    "logo": "https://metamask.io/favicon.ico",
+    "estimatedValue": 0
+  },
+  {
+    "toolName": "OpenZeppelin",
+    "useCase": "Secure smart contract libraries",
+    "category": "Blockchain",
+    "tags": [
+      "web3",
+      "solidity",
+      "security",
+      "smart-contracts"
+    ],
+    "freeWhat": "Battle-tested contract libraries, Wizard for generating contracts",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.openzeppelin.com/contracts",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hackathon",
+      "web3",
+      "smart-contracts"
+    ],
+    "badge": "Essential",
+    "logo": "https://www.openzeppelin.com/favicon.ico",
+    "estimatedValue": 0
+  },
+  {
+    "toolName": "Chainlink",
+    "useCase": "Decentralized oracle network",
+    "category": "Blockchain",
+    "tags": [
+      "web3",
+      "oracle",
+      "defi",
+      "smart-contracts"
+    ],
+    "freeWhat": "Free testnet usage, price feeds, VRF, automation",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://chain.link/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hackathon",
+      "web3",
+      "defi"
+    ],
+    "badge": "Popular",
+    "logo": "https://chain.link/favicon.ico",
+    "estimatedValue": 0
+  },
+  {
+    "toolName": "The Graph",
+    "useCase": "Blockchain data indexing protocol",
+    "category": "Blockchain",
+    "tags": [
+      "web3",
+      "graphql",
+      "indexing",
+      "data"
+    ],
+    "freeWhat": "100k queries/month on hosted service, free subgraph creation",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://thegraph.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hackathon",
+      "web3",
+      "dapp"
+    ],
+    "badge": "Popular",
+    "logo": "https://thegraph.com/favicon.ico",
+    "estimatedValue": 0
+  },
+  {
+    "toolName": "IPFS / Pinata",
+    "useCase": "Decentralized file storage for NFTs",
+    "category": "Blockchain",
+    "tags": [
+      "web3",
+      "storage",
+      "ipfs",
+      "nft",
+      "decentralized"
+    ],
+    "freeWhat": "1GB storage, 100 files, unlimited gateways",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.pinata.cloud/pricing",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hackathon",
+      "web3",
+      "nft"
+    ],
+    "badge": "Popular",
+    "logo": "https://www.pinata.cloud/favicon.ico",
+    "estimatedValue": 0
+  },
+  {
+    "toolName": "WalletConnect",
+    "useCase": "Connect wallets to dApps",
+    "category": "Blockchain",
+    "tags": [
+      "web3",
+      "wallet",
+      "connection",
+      "dapp"
+    ],
+    "freeWhat": "Free SDK, unlimited connections, multi-wallet support",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://walletconnect.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hackathon",
+      "web3",
+      "dapp"
+    ],
+    "badge": "Essential",
+    "logo": "https://walletconnect.com/favicon.ico",
+    "estimatedValue": 0
+  },
+  {
+    "toolName": "Etherscan",
+    "useCase": "Ethereum blockchain explorer & APIs",
+    "category": "Blockchain",
+    "tags": [
+      "web3",
+      "explorer",
+      "api",
+      "ethereum"
+    ],
+    "freeWhat": "5 calls/sec API, contract verification, analytics",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://etherscan.io/apis",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hackathon",
+      "web3"
+    ],
+    "badge": "Essential",
+    "logo": "https://etherscan.io/favicon.ico",
+    "estimatedValue": 0
+  },
+  {
+    "toolName": "Solana Playground",
+    "useCase": "Browser-based Solana IDE",
+    "category": "Blockchain",
+    "tags": [
+      "web3",
+      "solana",
+      "ide",
+      "rust"
+    ],
+    "freeWhat": "Full IDE, build & deploy Solana programs in browser",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://beta.solpg.io/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hackathon",
+      "web3",
+      "solana"
+    ],
+    "badge": "Popular",
+    "logo": "https://beta.solpg.io/favicon.ico",
+    "estimatedValue": 0
+  },
+  {
+    "toolName": "Rainbow Kit",
+    "useCase": "Best-in-class wallet connection for React",
+    "category": "Blockchain",
+    "tags": [
+      "web3",
+      "react",
+      "wallet",
+      "ui"
+    ],
+    "freeWhat": "Beautiful wallet connection UI, free & open source",
+    "duration": "Free Forever",
+    "eligibility": "Anyone",
+    "requiresCreditCard": "No",
+    "link": "https://www.rainbowkit.com/",
+    "lastVerified": "Dec 2025",
+    "indiaFriendly": true,
+    "recommendedFor": [
+      "hackathon",
+      "web3",
+      "dapp"
+    ],
+    "badge": "Popular",
+    "logo": "https://www.rainbowkit.com/favicon.ico",
+    "estimatedValue": 0
   }
 ]
